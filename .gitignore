@@ -1,0 +1,129 @@
+# ==============================================================================
+# 🔐 Environment Variables & Secrets (CRITICAL)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+
+# ==============================================================================
+# 🧠 RAG, AI, Vector DBs & Local Data
+# ==============================================================================
+# Vector Database storage directories
+.chroma/
+chroma_db/
+faiss_index/
+pinecone/
+qdrant/
+weaviate/
+
+# AI Models, Embeddings, and Weights (Large files)
+models/
+weights/
+*.bin
+*.pkl
+*.onnx
+*.pt
+*.pth
+
+# Locally ingested source files, documents, and logs
+data/
+datasets/
+documents/
+inputs/
+outputs/
+storage/
+*.pdf
+*.txt
+*.csv
+*.jsonl
+
+# Cache folders for HuggingFace, LangChain, LlamaIndex
+.cache/
+.cache/huggingface/
+.cache/langchain/
+.cache/llamaindex/
+
+# ==============================================================================
+# 🐍 Python & Django REST Framework (DRF) Backend
+# ==============================================================================
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+/static/
+
+# Testing & Reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==============================================================================
+# ⚛️ React Frontend (Node / Vite / CRA)
+# ==============================================================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production builds
+build/
+dist/
+out/
+
+# Front-end logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor/Lint configurations
+.eslintcache
+.stylelintcache
+
+# ==============================================================================
+# 💻 Operating System & IDEs
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# IDEs (VS Code, PyCharm, WebStorm)
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
