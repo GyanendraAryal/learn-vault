@@ -127,3 +127,9 @@ Desktop.ini
 *.njsproj
 *.sln
 *.sw?
+
+# Audio file
+audio
+
+# Transcript
+transcripts

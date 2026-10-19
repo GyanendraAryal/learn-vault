@@ -1,28 +1,38 @@
-import os
-from dotenv import load_dotenv
-from groq import Groq
-from sentence_transformers import SentenceTransformer
+import yt_dlp
 
-load_dotenv()
-api_key = os.getenv("LLM_API_KEY")
-if not api_key:
-    raise ValueError("API key kaha xa babu??")
-client = Groq(api_key=api_key)
-model = "openai/gpt-oss-20b"
-sys_prompt = "Act as an expert AI engineer as answer the users query."
-user_prompt = "What is rag?"
-sys_message = {
-    "role": "system",
-    "content": sys_prompt,
+url = input("Enter your url: ").strip()
+# url = "https://www.youtube.com/playlist?list=PLFPvf150v_Mc".strip()
+options = {
+    "format": "bestaudio/best",
+    "outtmpl": "audio/%(id)s.%(ext)s",
+    "postprocessors": [
+        {
+            "key": "FFmpegExtractAudio",
+            "preferredcodec": "mp3",
+        }
+    ],
+    # Add this line to explicitly set up the runtime
+    "js_runtimes": {"node":{}},
 }
-user_message = {
-    "role": "user",
-    "content": user_prompt,
-}
-messages = [sys_message, user_message]
-stream = client.chat.completions.create(model=model, messages=messages, stream=True)
-for chunk in stream:
-    content = chunk.choices[0].delta.content
-    if content is not None:
-        print(content, end="", flush=True)
-print("Program end")
+
+with yt_dlp.YoutubeDL(options) as ydl:
+    # Extract metadata dictionary
+    info = ydl.extract_info(url, download=True)
+    video_id = info.get("id")
+    chapters = info.get("chapters")
+    print(f"\nMetadata for video ID: {video_id}")
+    if chapters:
+        print("Timestamps Found ✅")
+        for chapter in chapters:
+            start_time = chapter.get("start_time")
+            end_time = chapter.get("endtime")
+            title = chapter.get("title")
+            # Format seconds into MM:SS
+            start_min = int(start_time // 60)
+            start_sec = int(start_time % 60)
+            print(
+                f"-{start_min:02d}:{start_sec:02d} | {title} (Ends at {int(end_time)}s) "
+            )
+    else:
+        print("No structural timestamps/chapters are found in this video's metadata.")
+print("\nAudio download complete")
