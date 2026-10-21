@@ -5,8 +5,8 @@ transcripts_dir = Path("transcripts")
 output_dir = Path("chunks")
 output_dir.mkdir(parents=True, exist_ok=True)
 
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 100
+CHUNK_SIZE = 250
+CHUNK_OVERLAP = 50
 
 
 def create_chunks(segments):
