@@ -4,3 +4,4 @@ audio/
 transcripts/
 chunks/
 embeddings/
+qdrant_storage/
