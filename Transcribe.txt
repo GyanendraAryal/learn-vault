@@ -1,0 +1,22 @@
+# LEARNINGS: RUNNING WHISPER LARGE-V3 ON A 16GB MAC
+
+## 1. SYSTEM & MEMORY DEADLOCKS
+- Whisper `large-v3` needs 5–6 GB of system memory by itself.
+- If your Mac's wired memory is high due to heavy apps like Brave or Cursor, the system may crash or lock up your script into a stuck state.
+
+## 2. APPLE SILICON (MPS) ACCELERATION
+- Running on the CPU is incredibly slow and triggers FP16 warnings.
+- Setting `device='mps'` (Metal Performance Shaders) offloads heavy mathematical computation to your MacBook's built-in GPU cores.
+
+## 3. WHY SCRIPTS APPEAR FROZEN
+- Whisper can fail silently without printing errors when stuck on bad hardware states.
+- Setting `verbose=True` inside `model.transcribe()` is critical because it prints text segments and timestamps live, proving the script is alive.
+
+## 4. ACCURACY VS PERFORMANCE
+- The `turbo` model uses less memory (~3 GB) and runs faster but can produce lower-quality translations compared to the full `large-v3` model.
+
+## 5. CONTINUOUS MEMORY CLEANUP
+- Python keeps temporary data blocks in memory until the script terminates.
+- For long lists of files, manually clear the cache after every file:
+  - `torch.mps.empty_cache()` — clears the Mac GPU memory cache.
+  - `gc.collect()` — triggers garbage collection for standard system RAM. 

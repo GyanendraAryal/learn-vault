@@ -5,3 +5,5 @@ transcripts/
 chunks/
 embeddings/
 qdrant_storage/
+.LearningTranscribe
+transcripts_test/
