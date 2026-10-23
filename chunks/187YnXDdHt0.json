@@ -4,63 +4,175 @@
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 0,
     "start": 0.0,
-    "end": 402.98,
-    "text": "So, postgres install about check. P sql 1.4 postgres code sql send to confirm and click postgres and we have already defined one about this. I am already following. So, we have a database, postgres code 1 and postgres. So, we have already defined one about this. Although, we have already defined one about this. I have already defined one about this. We have already defined one about this. We have already So So So So So So So So So So So So So So So So So And And This is where it lies. It is a terminal and it is a terminal. The installation is done. It is done. It is done. It is done. PIP freeze requirements. Dot LXT. Might be a bot. it might be a city. It might be a city. It might be a Bible. It might be a Bible. All information will be read hard. We do not We also do create data. We only see the delivery of our creators. For example, We only see the delivery of technology, and stations, Internet programs, And an Internet rede腆和 So integrating post-crisis here with Zanya. About you one, you can post-crisis one, you can get application. And it was Zanya one, it was zero, it was zero, it was platform and it was free, you know. So you will have to do it. So you will have to manually integrate, go on and go."
+    "end": 255.02,
+    "text": "So, we have installed Postgres. We will open the SQL cell of Postgres. We have defined the default. In the server, we have openhost, database, postgres, port, and username postgres. So, I have to do it by myself or it will ask me… Look at the whole screen... By now you are in bzadmin From BSQL, you can use terminal commands and SQL commands to interact with the database. Graphically, it is called BG admin. Here you can use graphical interface to use the commands, create the database, and create the tables. If you find this easy, do it. Let's try it again. Now, you can add the password. Enter the password. And this is the password for your postgres. Now, you can use the first method to enter the password. Enter the password by pressing L. L Okay Now, You can see the list of all the databases that you have created. Now, you can create a database for this project. You can use the name of the database. What is the name of the database? JMS Okay Okay Tell us the name. P conten Your name. And the colon. What will it be? database created from database like this you can do this now you can interact from here you can do this from here too to use command line you can use psql and it will be easy for you to use interface you can do this from here after opening this server comes here"
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 1,
-    "start": 391.98,
-    "end": 478.98,
-    "text": "About you one, you can post-crisis one, you can get application. And it was Zanya one, it was zero, it was zero, it was platform and it was free, you know. So you will have to do it. So you will have to manually integrate, go on and go. Now, the default is our SQL lighter, use one, go on and go. It's like any one, go on and go. You know, about different different applications like, I'm the song, I'm the song, I'm the song, I'm the song, I'm the song, I'm the song. I'm going to work on it, I'm going to do it. So about the default database, so LL change, go on and go. Now, I have a database that is post-crisis, use it. Yeah, in the moment, when it goes out, then Zango DB back in post-crisis, SQL and in psychokchi too. Okay. So you, you configurations and growth settings, one and go. Settings, two. Settings, call database now. I'll call your database like my address. So, it's our engine. You name money because I'm already a school name. I will create a code. You need to name it. So I'm going to create a code. You need to name it. J underscore R m person. Name and database. Build a user money because they need all your user and default users. All your work will create the user area. So, default user post-crisis. I've enforced this word by using solution with the password."
+    "start": 235.02,
+    "end": 388.86,
+    "text": "like this you can do this now you can interact from here you can do this from here too to use command line you can use psql and it will be easy for you to use interface you can do this from here after opening this server comes here and it will push in server and database will be created here we have created all the databases in this database you can see all of them you can make it easily so the first database we have created is jrms jrms now when we see tables jrms goes to schema inside schema we have tables and in this table first database then schemas then table from schema table you have created then tables all of them are listed here tables so now we have created this database so integrate postgres with django we have already seen many documentation many documentation so pre-recruits are installed in django now you can interact with database to your django project so paste your django field and it looks like is the data so we have to take out django from fingerprint folder and after that we need to install youdjango it will be It will automatically freeze all, only providers and others that have these friends required a lock button. pipfreeze-requirements.txt We have created the database. Now we are going to create a user by using command line. Now we are going to integrate the Django project with the project."
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 2,
-    "start": 462.98,
-    "end": 669.88,
-    "text": "You need to name it. J underscore R m person. Name and database. Build a user money because they need all your user and default users. All your work will create the user area. So, default user post-crisis. I've enforced this word by using solution with the password. So we'll look at where Professor Mustangs is doing the password. Got to go. Go. stressed was pulled. Гос. Coloured was. etc. Get done here. Sure. So, hello. into Google and go. According to report, 5 4 3 2 1 1 2 1 2 So name on it is called user money. User money on it. Password password, password, password, password, server. And you pull it like that. Pull. Yeah. Ah. You are asking for it. You are asking for it. Yes, yes. Oh! Yeah. Yes. Right to My Dream physicians. I am a student here. Not yet. Oh, so we can change the invite new type of 라고 site but there's already a So, so So, So, So, So, So, So, So, So, So, Look At of Action A So, Etiqu Visual So, and then we can get a new database. So, over this, we can get a new database. We already have existing data. And the previous database, or SQL like 3, this, and this, and this, and this, and this, and this, and this, and this, and this, superused. has ara Superior Up. sr So yeah, I'm really not a user clear."
+    "start": 345.02,
+    "end": 475.86,
+    "text": "it will be It will automatically freeze all, only providers and others that have these friends required a lock button. pipfreeze-requirements.txt We have created the database. Now we are going to create a user by using command line. Now we are going to integrate the Django project with the project. Now we are going to integrate PostgreSQL with Django. Now we are going to integrate PostgreSQL with Django. We have to integrate this manually. Otherwise, we can use the default SQL. Now we have to integrate different applications in one project. So now we have to integrate the integration with the project. Now we have to integrate the integration with the project. So we have to change the default database. So we have to change the default database. This is our new database that is to use PostgreSQL. It is also written in engine. Django DB backend PostgreSQL SQL and psychopg2. So this configuration is running in our settings. So this configuration is running in our settings. In the settings database. In the settings database. Now we are going to remove this previous database and add new one. Now we will change the name of the database. We have already created the database name. The name of the database we created was j underscore rms. The name of the database is given in the name. Now the user is the same user we created. It is a default user. You have to create another user. So default user is postgres."
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 3,
-    "start": 609.88,
-    "end": 792.38,
-    "text": "we can get a new database. We already have existing data. And the previous database, or SQL like 3, this, and this, and this, and this, and this, and this, and this, and this, and this, superused. has ara Superior Up. sr So yeah, I'm really not a user clear. You know, we're users and can only work on all the user. So it's all rules. I know all the shift. We'll see how we do. We'll see how we do. We'll see how we do. We'll see how we create work as you want to use it. And you get that. I'll query. I'll query. I'll just call it. I'll select you from you. I'll query. Use. I'll query. Use. Use. Use. Use. Use. I'm. Super easy. I will. I will. Command. I will. Insert you. Into your field. You know, of you. You know, you. Select. For our form. And then we'll see. Or insert. In. Subway. I will. So you. You don't. I'm. You both. I said. You. You can use. I. You. I. You. I. You. I. You. I. You. I. You. I. You. I. You. I. I. I. I. I. Stay. Stay. At first. At first. I. Stay. Stay. You. You. I. I. I. I. You. You. Get. I. Yes. I. I. No. I. I. Go to. Use. I. No. I. I. So How to do So Can you read Any I'm trying to use my sq So sq Format my sq Our table names"
+    "start": 461.86,
+    "end": 590.22,
+    "text": "The name of the database we created was j underscore rms. The name of the database is given in the name. Now the user is the same user we created. It is a default user. You have to create another user. So default user is postgres. The password is the password used in the installation. Remember the password used when you installed. The host is our server. The host has a localhost. We can also go from here. So we don't have to keep the localhost. And the port is our 5432. The port is our self-proach. So the name of the database is the user. The user's name is given. The password is the password. The host is our server. Which server is it? The server and the port itself. We can Nick name it by this way. So, how we can check the port right? We should look at the Shaq Idol. You just need to click on the Пicles button. Now the network is Antunu VPN's aim. As you can see we already have a large network. Now we have to perform the migration. We have to create the migration file. So, we have to do this. So, we have to do this. After that, we have to call the code. So, we have to call the code. So, we have to do this. Now we have to create a new database. Now, we have to litef blog. Look at the minutes. I. . ."
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 4,
-    "start": 750.88,
-    "end": 1023.38,
-    "text": "I. Stay. Stay. You. You. I. I. I. I. You. You. Get. I. Yes. I. I. No. I. I. Go to. Use. I. No. I. I. So How to do So Can you read Any I'm trying to use my sq So sq Format my sq Our table names Consider table Add Okay Okay And RMS sign And it is a table So I am Sq RMS And And And And And And And And And If you can Sq And And And And And So How Is You Data And RMS And and jelly is one of the value add okay so like the link is here go ahead and link it to script or have 5 order up insert 0 1 query return successfully so if the video is line it refresh it is safe enough so rm is that you will table like the view one う um we fall Welcome from I have a file for the previous one. I will copy it. Hey, you know that time. Thank you. I have one. I have one. I have one. I have one. I have one. I have one. I have one. I have one. I have one. I have one. I have one. It will go on. It will go on. or it will go on? It will go on It will go on. I'm going to run to the course of your life. Yes, sir. Execute file. I'm going to run. I'm going to run."
+    "start": 546.86,
+    "end": 692.86,
+    "text": "So, we have to do this. After that, we have to call the code. So, we have to call the code. So, we have to do this. Now we have to create a new database. Now, we have to litef blog. Look at the minutes. I. . . So, after doing this, we have tables. Here, we have tables as of now. RMS category, RMS menu, RMS order, menu order, table. All of these are tables. So, now, our database is already removed. After that, nothing will be removed. We already have existing database. And we have data in previous database. And in SQLite 3. The data that we have entered in it also. The data that we have entered in it will not be in our postgres. So, we have to add all the data. We have to add all the data. We have not added anything yet. It is done. So, for now, create a super user. manage.ui Create super user This is my data. My data. Do you have any value? Refresh. Right click and right click. Right click. So, here we have created a new user. This user is here. We have added an auth user. So, from here, it is called all rows. All shift reads. We have to add this. We have created a table. We have created a table user. And here you can use query, sql query. Select you from view. And add as a full. So, here we have used query."
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 5,
-    "start": 975.38,
-    "end": 1600.38,
-    "text": "I have one. I have one. It will go on. It will go on. or it will go on? It will go on It will go on. I'm going to run to the course of your life. Yes, sir. Execute file. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run."
+    "start": 673.86,
+    "end": 776.86,
+    "text": "So, from here, it is called all rows. All shift reads. We have to add this. We have created a table. We have created a table user. And here you can use query, sql query. Select you from view. And add as a full. So, here we have used query. And here we have used tables. So, we have made a super user. Super user. Now, first of all, Use this command. Insert you into your field. Of you. Select for our form. And then, Or insert in. All these. You can use the sql commands. So, this is not a big deal. We have created all the data in bulk. So, now you can use this. This is a carrow. Carrow. This is a random data generated. You can use this. So, first of all, Which table has which fields? Here we have to add our fields. So, first of all, We have to add a category. In category, we have to add a name. You have to add a name. ID is automatically generated. You don't have to do this. And I have only a name field. Now, what is the name of our field? In model, we have to add a name. So, name. Here type name. In category, we have to select category. Product category. Product category. Now, we have to add a new field. Here we have to add a new field. Add another field. You don't need another field."
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 6,
-    "start": 1424.38,
-    "end": 2604.38,
-    "text": "I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run."
+    "start": 761.86,
+    "end": 887.16,
+    "text": "In model, we have to add a name. So, name. Here type name. In category, we have to select category. Product category. Product category. Now, we have to add a new field. Here we have to add a new field. Add another field. You don't need another field. So, how many rows do we need to generate? So, we have to create 10 categories. And we will use sql query in this. So, sql. In format, we will use sql. Now, table name. Which table do we have to add data in? Table name. Table name. Table name. Table name. Table name. It is not rms. It's database. We have to find table. The name of our table is rmscategory. So, we have to add rms category one. brakes key. items world and then button. pharmacy pandemic And, I will add rms category one. gens 10 us already. rms underscore category one test. You see? It is series of data. Another, when we generate data, morning or at the beginning of the week? When you generate data, data will be downloaded here. InterEND file will be downloaded. In preview, all our work is data generated. In sql query. In this table, insert into Because all data is there. let's do that for table name beenter insert this data into table name field and add value of food jam and jelly execute this as execute script or F5 insert 01 query return successfully refresh this data view table name"
   },
   {
     "video_id": "187YnXDdHt0",
     "source_file": "187YnXDdHt0.json",
     "chunk_index": 7,
-    "start": 2318.38,
-    "end": 2864.38,
-    "text": "I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run. I'm going to run."
+    "start": 820.86,
+    "end": 1097.66,
+    "text": "In this table, insert into Because all data is there. let's do that for table name beenter insert this data into table name field and add value of food jam and jelly execute this as execute script or F5 insert 01 query return successfully refresh this data view table name enter data type item 1 food 2 fitness 3 and add data table is in schema table is in schema size is squ-tile ball Math añadить hen add table in rms Now we have created all the tables for the migration. So we have to create the table. How do we generate data? You can preview and copy the generated data. We have created the table. This is the app1 category. You can see the query tool. This is the query tool. You can see the query tool. You can see the query tool. You can see the query tool. You can see the query tool. You can view the data. You can see the data. How do we generate data? You will see the no.1 category. Execute file I have a error mock data does not exist data does not exist In preview, insert mock data In this type, select the type of the field and generate the data select the type of the field and generate the data select the type of the field and generate the data Check the data check the data and save the file and save the file and save the file"
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 8,
+    "start": 1038.16,
+    "end": 1245.7,
+    "text": "select the type of the field and generate the data select the type of the field and generate the data select the type of the field and generate the data Check the data check the data and save the file and save the file and save the file and save the file Type of the page Role category Role Format Table name RMS category Table name RMS category Role Leo lot Table name れた Anyone mantenig tanks fellows VMA display reader Then enter the date in the menu So, in RMS menu. Now, to enter data in the menu, our field is named category price image. The image is blank for me now, so I don't have to enter the image. So, now I'm going to delete the image. So, now what is the name of my category table? RMS menu. If you go to the post script, our table is named RMS menu. So, RMS menu. Textual format is the same as the field. And then, this is the first one. And then, name. This is the model. So, this is the product name and our product name. And then, our category. And then, what category is this? This is our foreign key data. And then, we have to enter our name. And then, our names. Naming is also different. So, ID, name, price, image and category ID are the same. So, when the table is created in the database, your foreign key related data is also here."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 9,
+    "start": 1225.7,
+    "end": 1311.7,
+    "text": "This is our foreign key data. And then, we have to enter our name. And then, our names. Naming is also different. So, ID, name, price, image and category ID are the same. So, when the table is created in the database, your foreign key related data is also here. And underscore ID is also here. So, here we have categories. Category is our foreign key field. And here, category ID. Now, in order, there is a foreign key field called user. So, user ID is treated in the database. In order menu. In order menu, there is an order ID and menu ID. So, here we have the name of our category and the ID of our category. So, this is the category. And this is the category ID. Now, this is our foreign key field. In the foreign key field, we only have the ID. In the foreign key column, we only have the ID. So, we have to enter our number here. Right. Now, in the number, we have to specify which category data is given. Now, let's go to the category. What kind of data do we have in the category? In the category, I have an ID of 1, 2, 10. So, when I connect to the menu, the primary key of this is the menu. And we will be sitting in the foreign key. So, we will add data of 1 to 10 only. Now, I will add 11 from here."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 10,
+    "start": 1298.7,
+    "end": 1389.5,
+    "text": "So, when I connect to the menu, the primary key of this is the menu. And we will be sitting in the foreign key. So, we will add data of 1 to 10 only. Now, I will add 11 from here. This data is the ID of 11. How? You have to delete some data from here. Now, I deleted 5.5. Now, I deleted 5.5. Now, I deleted 5.5. Now, I deleted 5.5. You can add some data in the menu. You can add some data in the menu. Now, you did not see nothing. You should add some data from here. Now, by the name, I will add a number, and I changed. Now, I will add a number, and I changed. From minimum to maximum. From minimum to maximum. And minimum, there is also a version of 1. And I will change the ID number. And I will change the ID number. So, how does it work? This is how the ID number changes. And the next field is the category. And the next field is the category. And the category is the price. Our price Our price You have already added the number In this number, we need to know the FOOT price The FOOT price in French coin is 5G Using prcen Then, what is Poin in Fleur다is? Yes, the amount of points Now i will check So, I will give you a key view. Copy the data from here. You understand the SQL commands, right?"
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 11,
+    "start": 1362.5,
+    "end": 1484.5,
+    "text": "The FOOT price in French coin is 5G Using prcen Then, what is Poin in Fleur다is? Yes, the amount of points Now i will check So, I will give you a key view. Copy the data from here. You understand the SQL commands, right? It's written here. What is min and max? Min and max is your data in range. Now the minimum is 100, the maximum is 5. The numbering of data is 100 to 500. Min and max is the range. Now, we will insert the data in the RMS menu. In the RMS menu, we will add the unit data in the field named Category and Price. Press the button. Press the button. The unit data is now entered in the field named Category and Price. Now, the unit data is only 1 to 10. First, we will enter 11 in the Category ID. We will run it here. Because the category ID is here. We will just do this. Here it says, Insert update on table RMS bullets, foreign key, constants. Key category ID is not present in the table. So, here it says, We will not insert the data of ID number 11 in the category table. We will insert it in the table. So, here we will enter the data of ID number 11. Enter. Here we are successful. Now, we will view the table. We have entered the data. Now, we will go to the next table. There is no image here."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 12,
+    "start": 1465.5,
+    "end": 1624.8,
+    "text": "We will insert it in the table. So, here we will enter the data of ID number 11. Enter. Here we are successful. Now, we will view the table. We have entered the data. Now, we will go to the next table. There is no image here. So, we will not insert the data. Category 6, 4, 9. This is our category. There are some other categories. This is our data. We have saved it in the category list. We will enter here where these data are saved. Now, let us Bizim that how it is filled in this Q Nest App. We will do this on the Q Nest App. That's it. And, Let us just click on Su disturbance in the column. Every time, Next question day of view. Any feature we want to use on this screen? Here, Anything we want to, If I want you to like or dislike my video, Then, So now this same data we're adding to admin panel Okay Now we added to category This is our category Go to Manual. So, here you have the menu view. click save paste the result and save it we saved all our numbers and now LAS cards category admin We need to add filtering in category so we need to add it in category After we restore category, we need to add category name We need to restore category name in category After that, we need to add category name in category"
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 13,
+    "start": 1587.82,
+    "end": 1749.8,
+    "text": "and now LAS cards category admin We need to add filtering in category so we need to add it in category After we restore category, we need to add category name We need to restore category name in category After that, we need to add category name in category Next is menu menu-admin admin.model-admin Now we need to add this in this list Now we need to add this in this list We need to add name in this list Next is category name We need to add this in this list Now we need to search this Now we need to search this We need to search by name We need to add filter We need to add filter We need to add filter filter now we are done Now to Cercear HTML, CSS, and other things are not used in the admin. It is not used in the admin. It is not used in the admin. Now, it says here that the value list filter must be missed or double. So, it is not. It is double. It should be at least one. It is a category. So, in the menu, it says by category. It means that the category should be filtered out. Now, when I search here, I will use its name and search. And then I see the category here. Using category, its price, its name, and then filtering it. Now, I will see the fitness."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 14,
+    "start": 1730.8,
+    "end": 1970.64,
+    "text": "It means that the category should be filtered out. Now, when I search here, I will use its name and search. And then I see the category here. Using category, its price, its name, and then filtering it. Now, I will see the fitness. If there is no fitness credit, that one should be filtered out. They were all good parents. But, you can Go back to the dein ratinoin page. Let's add a gate to the table ute and it has an admin customize then Cuz You can open it you can open the admin customảation. I've done that much Yes, let's add some to Pulse aqui No Music In order menu, there are many relations between order and order items. Order menu is an intermediate table created by a user named su. First, let's create an order. In order menu, a user named su will be given a total of 25 orders. The total price of the order is 100. The order is paid. The order is not paid, so I will add this. First, let's create an order for su user. If the user selects a particular food, then there is nothing in this menu. After creating an order, let's go to the order menu and choose the food. In order 1, the order is selected by su. In order 1, the order is selected by su. If the user selects a particular food, the order will be set. All the works will be ordered by su."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 15,
+    "start": 1959.64,
+    "end": 2080.64,
+    "text": "In order 1, the order is selected by su. In order 1, the order is selected by su. If the user selects a particular food, the order will be set. All the works will be ordered by su. Psh was chosen to order a submit training ticket of 37 yen for 21 lend. There are a total of start screen and end screen engines are selected from institute's而且o injections First, we have to create an order. Then, we have to go to the order menu and select the food. This is a different process. From that, we have multiple orders. By viewing multiple orders, we can see which order is the most important. We can see the order object 1 and the order object 2. So, for now, we have to clear the order. We have to clear the order 1. We don't go into the order 1. We go to the order menu. 1 Then, we go to the order menu 2. Then, we go to the order menu 3. Then, we go to the order menu 3. Then, we go to the order menu 4. This is the order. If we create another order, it will clear the other order. And will be the order of that person. The order of this order. Order menu 1, order menu 2. We have to clear all. So, in this way, we can easily do. By creating an order, I can select food. I can easily do this."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 16,
+    "start": 2059.64,
+    "end": 2222.64,
+    "text": "And will be the order of that person. The order of this order. Order menu 1, order menu 2. We have to clear all. So, in this way, we can easily do. By creating an order, I can select food. I can easily do this. and create the order menu Now, we can select the order menu by creating the order menu So, we can do this in admin panel So, first of all, we create the class class order We have to handover this order to someone order model id So, first of all, we define the list display In list display, we have the id but we can also define users and the drop down status We had the order and called the order Let's all close the account And again we can see that this order is valid Now, what we want to do is, I am not creating an order, I can select the view level. And if I view the order, these users will also view the items that are being ordered. So, for that, we use inline. Create a class. Now, the class is created. Now, the order menu is created. So, the order menu is created inline. The class is created. Now, we don't use the model admin. We will use the table-r inline. Table-r is inline, and stack is inline. We don't use this. Now, table-r is the format that is given table-wise. We change it in our display."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 17,
+    "start": 2195.64,
+    "end": 2297.64,
+    "text": "So, the order menu is created inline. The class is created. Now, we don't use the model admin. We will use the table-r inline. Table-r is inline, and stack is inline. We don't use this. Now, table-r is the format that is given table-wise. We change it in our display. So, we have a model in this. Let's call it model. We have a model for our order item. We will use the inline model. So, we will use the order item. This is the procedure. We will add an inline model to the order item. Inline. Now, we will add the inline model to the order training. We will also use the order item from the order. So, we will add the order menu to the inline model in order admin. So, the order design is, the parent class is my order, and the order menu is my subclass. We will view it from here. We will view the order from the order item. We will add the order item from the order. So, we will add the order menu from the order. So, it looks like this. Let's close this. It looks like this. You can see the order menu here. It was like this before. So, we will add the inline model to the order menu. So, we will add the inline model to the order menu. We will have to ici it. Ok. First, we add the inline model, then,"
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 18,
+    "start": 2280.64,
+    "end": 2427.96,
+    "text": "You can see the order menu here. It was like this before. So, we will add the inline model to the order menu. So, we will add the inline model to the order menu. We will have to ici it. Ok. First, we add the inline model, then, we will pout the order item to the order menu model. We will fix it like this. Now, we will smooth them out in order menu. The thing is, every single over here would have similar results than this. Under Here you get these policy documents which will be used as a guide. where they send foreign� each sending those works. Now, we have ordered the menu and full items in order number 1. Now, let's create a new order. Now, the user has ordered and the buyer has ordered. We don't have to link the total price manually. Now, let's add the food to the order. Now, we have selected the food. Now, we have saved the order. Now, the regulation has been created. Now, let's go to the order menu and add the data. Now, let's add the food to the order number 1. Now, let's add the food to the order number 2. Now, the order number 2 is included in the list of extra items. Now, the vendor has added more items to the list of the existing food. If I click on the first tenant, let's model again."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 19,
+    "start": 2408.96,
+    "end": 2607.96,
+    "text": "Now, let's add the food to the order number 2. Now, the order number 2 is included in the list of extra items. Now, the vendor has added more items to the list of the existing food. If I click on the first tenant, let's model again. Now, we have added more food to the list of the existing food dishes. Now, you can click add from the menu if you need to, simply put the order item or not. When the vendorете the order, you will have to select settings. Now you can see the order items related to this order. You can add this item here. You can comment below. You can see the order menu here. You can see the order here. You can see the order here. You can see the order here. You have to give a class name. You have to give a class name. Just for the sake of Azharse. Just for the sake of Azharse. Or you can save this class name like this. Or you can save this class name like this. Or you can save this class name like this. I have added the item here to customize my order model. I have added the item here to customize my order model. But we cannot call this an order. Thank you. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 20,
+    "start": 2549.96,
+    "end": 2828.38,
+    "text": "I have added the item here to customize my order model. But we cannot call this an order. Thank you. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me. I am not sure if you can hear me. We will try to list all the people we have 어떤 we should also check would like to you on the list to add Let us add some filter and search charts, Let us add custom outside of admin panel. Upon finding possibilities around ind statute for doubt-based discrimination, several institutions on other userkenny卷 we saw the importance of this type of consultation, rather than�� gory and ma At the end of page, the next tab of the analytics scan the image and clearly encont centrie of the Now, we have to change the admin file in the admin panel. We have to change the display, the theme, etc. We have to change the data, the database, etc. What are the other complex fields? In the other complex field, we have to change the menu. In this class, we will open the menu by creating a mini class. Moscowilo Hello, we have two monitors in this class. I will give you 1 as an aluminum monitor."
+  },
+  {
+    "video_id": "187YnXDdHt0",
+    "source_file": "187YnXDdHt0.json",
+    "chunk_index": 21,
+    "start": 2789.38,
+    "end": 2829.38,
+    "text": "What are the other complex fields? In the other complex field, we have to change the menu. In this class, we will open the menu by creating a mini class. Moscowilo Hello, we have two monitors in this class. I will give you 1 as an aluminum monitor. A second for give a hurt on another monitor. Every monitoring withView l given by my teacher."
   }
 ]
