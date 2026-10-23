@@ -3,56 +3,136 @@
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 0,
-    "start": 60.0,
-    "end": 579.76,
-    "text": "it's a 3-4 earth and second line but you will find the 솔직 in the secondation that is Indians andiality and formal manner and dont invite people what a fascinating 맛 order you sit this manual model you sit like in port one there are rounds of query pullystitch order dot object if you want to have a round of serializer class then you will you sit like in a class if you want to have a simple gallery then you round of the serializer then you sit like in port you get high lashes Website pack Don't mentioncomposed Now a the While you are doing that, then ask him to send anybody to call you in a row and we willpatient his application. The Health Rs.38 helpful to all your kids here today will be used to download his submitted updates. award TW and order and start and create and find and use order and use order and start and create and create and create and use order and use order and I am using order and I am using order and use order So, let's see how to do this. So, the first one is, this is called serializer. serializer, but serializer is a family, the reason is that, user feel, right? So, you user feel, so, yes, yes. User, Tani, serializer, dot, hidden feel, hide, while designing, you feel like, you know, you know, default, default, serializer, dot, current user default, right? So,"
+    "start": 0.0,
+    "end": 325.22,
+    "text": "Now, when we load this, we have to be in UTF-8, but this is saved in UTF-16. It is on the side, in select encoding. So, let's go here, reopen with encode, in which UTF-8 will be placed. UTF-8 will be placed, then simply run the load data. Save with encoding only. Save with encoding only. Now your utf-8 must save world. Now I will install it. After that, you can add a new panel and refresh it. Now, all the data is in the wire. The backup file that was added in the previous database is now showing all the data. Let's go to the category. you you Now we are going to create an order API. In order API, first define class class order view state In this, we will import the model view set. Then we will also query set. query set order.objects.all After that, we have to give serializer class. After giving serializer class, let's go to serializer file. then we will create a special awesome word for our array we will enrolled our class data Now, in this, we will add class Meta. Meta is also on the table. And the model, the model is ordered here. And next, we will add the field. We will add the field in the first. you This is the future with id in our order. Now, we want to define the URL in the order. We will define the URL in the order view set. you"
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 1,
-    "start": 529.76,
-    "end": 903.24,
-    "text": "this is called serializer. serializer, but serializer is a family, the reason is that, user feel, right? So, you user feel, so, yes, yes. User, Tani, serializer, dot, hidden feel, hide, while designing, you feel like, you know, you know, default, default, serializer, dot, current user default, right? So, you use your feel like, hidden, you, hidden feel, not, you, right? I'm going to let it to the first one. I mean that will be the last one. Okay. So, it's not important to show them that word. But I think it is. I think it is. I think it is usually the other one. I think it is potential but I need it. So, that one is... So, I will show it. I think it is the same. I think it is the same. I think it is the same. I'm not saying it right now. So, I'm saying it right now. Okay. Okay. Okay. out watching their put in the 72d as looks too Let's say Green depicted as a status算 tree ding Lag now Home We have to use the model serialized in the book. It is my class. It is my class. It is my class. It is my module. It is my order item. It is my order item. I am an item. I am an item. I would say that depending on the order, just enter here. Including serial調 So I send numbers. Right here. �� selecting your order已經. Yeah, this is available."
+    "start": 247.16,
+    "end": 503.14,
+    "text": "And next, we will add the field. We will add the field in the first. you This is the future with id in our order. Now, we want to define the URL in the order. We will define the URL in the order view set. you slash v1 slash minimum number minimum key number of existing order your id, your user, your quantity your quantity value your price, your status is pay W nom 5 yes , what you are searching for in here? w nom 5 w nom 5 w nom 5 you will find basic station 5 out here put , and here right side bar first you will see , um This. Yes Save with encoding minecraft Click on Lights and edit We have two orders now. And we have two orders in our list of orders. Now, while creating this order, we have to add the authentication, and we have to define the permission, so that anyone can add it from here. Now, to select a user, the user1 has ordered, the user2 has ordered, the user3 has ordered, so the user2 has ordered something, the point is 100, Now, I have calculated the total price. So, I have selected the pending status as pending. Now, I have selected ID number 3, user number 3, quantity 10, and status as paid. Now, I have selected the user number. I am 0000 user but I will place an order for 001 user 2"
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 2,
-    "start": 865.24,
-    "end": 1591.08,
-    "text": "It is my module. It is my order item. It is my order item. I am an item. I am an item. I would say that depending on the order, just enter here. Including serial調 So I send numbers. Right here. �� selecting your order已經. Yeah, this is available. I have no use. So we have to select all number and package number. That's the command method. I don't know, an AutorRadical Civilizer. Autor was chosen as performance director. Autor Radical Civilizer does not hold a good judge or varies following pronouns. good omelette I think it won't be like but I can name my defined colleague. Is it is related to my items on your design board? And it's called my creation field volume. Make my Richels. Migration work is a library related to my related name. You related name like call gore. I'm here. I'm pre-fetched related items on your order. I'm related to your items. You order. That is in order. You order. So it is not intuitive. It's not intuitive. things that will happen Tutorial Solしい ğlum Gom Di 입 Gu with L express 듣 marrow delight some the end Sir, I think it is nice. Plus about 250 people.\" and add 20 I want 2, 20 I want 2, 20 order first we will add order we will add order we will add order but this order is not but this order is not order number 1 this order is"
+    "start": 471.64,
+    "end": 660.96,
+    "text": "So, I have selected the pending status as pending. Now, I have selected ID number 3, user number 3, quantity 10, and status as paid. Now, I have selected the user number. I am 0000 user but I will place an order for 001 user 2 If I have logged in, I will have to go to the user details I will not be able to place an order for other users Finally define hus-profi-cph to additional. I still hope that your Windows protested & changed ks-vm If you touched thecuzer area, you should check itτα32. You can than modify it to that area in user field store. So, here, we will hide the field as our user. I will not show this field in the display. But, if I request something, it will be in my name. We can select another name. In default, we will add the user field as default. Now, we will keep the user field as hidden. And in this hidden field, we will add the details of the current user. If I have logged in from 0.01, I don't have to enter the user details. Now I will refresh the page. Now, we are using the user of our network. So, we will add the information in this. Please authenticate your network. Now, we are using the authentication potential of our network. So, I will try it here. There is another one. I will get it from here. Here is the authentication side."
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 3,
-    "start": 1551.0,
-    "end": 1949.4,
-    "text": "Plus about 250 people.\" and add 20 I want 2, 20 I want 2, 20 order first we will add order we will add order we will add order but this order is not but this order is not order number 1 this order is I want to add 1, 2, 1, 2, 1 do add it it is your order it is my report it is your order and first theq which is costs is costs 1000 if you want to make sense poor data get new value data data data data data data data data data data data data data I will tell this to you immediately Sir, First order is created. Order is created in the menu. I will give an admin panel. Order is created. Order is added in the menu. Order is added in the menu. Order is added in the food. Order is added in the menu. I will give an admin panel. Order is created in the menu. I have created an admin panel. I have created an admin panel. I have created an admin panel. igual to problem calculator and I will give some content here to show the properties of COLLEGE. Y any more useful items? Standard preview is available. Presenting is another item. I don't know if you can get it or not. But I don't know if you can get it or not. So for items in items, we will have to do it."
+    "start": 628.96,
+    "end": 835.68,
+    "text": "So, we will add the information in this. Please authenticate your network. Now, we are using the authentication potential of our network. So, I will try it here. There is another one. I will get it from here. Here is the authentication side. Now, log in to it. This is it. And here it is. Now, I am showing you all the details. Now, I need to push the data. I need to push the data in the form of quantity, total price, status and age. Now the information on the size and feature are added last As you can see, Naturalize method ISP has completed successfully If we add more information The value is calculated as well Enter the parameter hyper PAC Botanical airplane If we enter the parameter category I am adding INC key This is also in serializer.incasor field Incasor is float field This is our reunit As you can see in backend, users didn't add this okay our same goes on uh status store is speed level and status cnl dot you can have a read on your word DOM of this leopard length class is including PerryX, so I onlyKeep quantity here so now the belowl Gratios. so the belowl Gratios. So Note i also have items in grew with my dotด so you have noted in list In this case, I have ordered food items. I have ordered food items. Now you can see that I have ordered food items."
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 4,
-    "start": 1895.4,
-    "end": 2051.3,
-    "text": "Y any more useful items? Standard preview is available. Presenting is another item. I don't know if you can get it or not. But I don't know if you can get it or not. So for items in items, we will have to do it. We will have to do it. We will have to do it. Now, we will have to do it. You can get this food item. Price get going. So, you can get this food. Price get going. No items you can buy. You can get this food. How to get this food? How to get this food? You can get this food or you can get this food. How to get this food? How to get this machine? Vou Rails G Difficult. This item is useful in resident community address. Use this item within. Get food. Sorry. Food. I remember 11. I remember 11. Look, like your items on your video. Okay? If you do items on your video, you will find out that you have been looking like a food player. See? Your items don't get manual, like in the first lip. I remember 11. I remember. I remember. Food company has been looking for you. I remember. Food. I remember. It's price time to get back to your foodight that you cannot buy the it goes in the country twice It's correct to buy the food and you will get back to your work I skill time will take 20 minutes"
+    "start": 804.42,
+    "end": 1018.96,
+    "text": "so now the belowl Gratios. so the belowl Gratios. So Note i also have items in grew with my dotด so you have noted in list In this case, I have ordered food items. I have ordered food items. Now you can see that I have ordered food items. It is easy to do the same. I have created a list of items in the order. We will create a list of items in the serializer. So, from the next step, we will create a class called OrderItemSerializer. This is also our model serializer. In this class, class meta, our module refers to the order item. Here in menu. aire symptons Fills Here you see its contents also. 2nd Order Here sets menu Now, we will add the order menu. We will display the order menu from the order menu. We will add the order menu serializer. The menu should here is will be set on the order menu. Here, we need to define the shape of depending menu, by using the item cz Hands 辦 To rotate the layer to the other palette enter here and click save In preview page we add new faculty and here is .3 page so, we can add items here and another thing is from order menu order is connected to order menu so, I will add related name here and this related name is for items so, from order we can define the common name of the item in the order"
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 5,
-    "start": 2021.4,
-    "end": 2268.22,
-    "text": "I remember. Food. I remember. It's price time to get back to your foodight that you cannot buy the it goes in the country twice It's correct to buy the food and you will get back to your work I skill time will take 20 minutes My first map to turn some and what is that right it's a word that you need to to price also if you go to the person like you you need to first validly did it a word I am receiving all the time I am going to pop pop I am going to pop I am going to pop I am going to pop pop pop I am going to add the word you are going to pop it's a word first my initial total is 0 now I am going to pop it's total it's total it's total it's total it's total it's total it's total it's total it's total it's total it's exit get the property parents values retail property because wear also values price toys for them food toys for shoes for squash for So nobody body order price variable it nobody politicians order ID and closing for owner as many ,you can use multiple 알투 And we have a polluted poll栓 I will use it as an order. I will use it as an order. So, it is for item. Item. Item. Now, what is the order? What is the order? Order item. Sorry, order menu. Order menu."
+    "start": 986.96,
+    "end": 1574.54,
+    "text": "so, we can add items here and another thing is from order menu order is connected to order menu so, I will add related name here and this related name is for items so, from order we can define the common name of the item in the order define the items in the related name and create the migration make migrations After migration, we have to migrate it. We have migrated it. Here is the related name. Now I have to call this related name and work here. Now the items here are prefetch related items that are done from the order. Now from this order, I have to call items. The item related key is in the order menu. So, in this, it should be like this. It should be like this. Object has now attribute order, order on serializer, order many serializers. you you you you you you This is our user input. Name is given in select the data. you you you you you legal procedure. In this, many equals to two equals to three. Now, we have multiple data in serialized. So, we have to serialize multiple items in multiple data. This is how we do it. In ID number 1, there are 3 orders. In ID number 2, there are 4 orders. In ID number 3, there are 1 order. Now, I will show you the post. Now, I have to add its quantity. I want to add 10 quantities."
   },
   {
     "video_id": "dj8rmZs_f5Y",
     "source_file": "dj8rmZs_f5Y.json",
     "chunk_index": 6,
-    "start": 2228.0,
-    "end": 2813.12,
-    "text": "as many ,you can use multiple 알투 And we have a polluted poll栓 I will use it as an order. I will use it as an order. So, it is for item. Item. Item. Now, what is the order? What is the order? Order item. Sorry, order menu. Order menu. It is like created for the order. Create. Now, order. You can say as before, about the order. I simply dont want user Blade Machine爲 Gamma wappies got golden him make thisyrics please follow lets make my pai So here i will download this onroots display You are each unique mind vitesse exam ID number 2 Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you."
+    "start": 1543.54,
+    "end": 1683.04,
+    "text": "This is how we do it. In ID number 1, there are 3 orders. In ID number 2, there are 4 orders. In ID number 3, there are 1 order. Now, I will show you the post. Now, I have to add its quantity. I want to add 10 quantities. Now, here we have to create an order. After creating an order, the order ID will appear. But, it already has the order name. Now, I will write the order number 1. I want the ID number 11, 10. I will add the quantity. My order 1 already exists. That is, the order 1 ID. Go to the menu and click on config. We don't have to add this order because we have created it ourselves. So, I didn't remove this order. So, I removed the order from the CLI. So, we don't have to add the order. Then, we have to add the menu in the menu. choose использовать press the enter but inside menu two itemsulator they right image and his name is 11 its numbers element Wife already Azhar number 11 number id number is 2 We can see that the create method does not support a writable nested field. In serializer, this model serializer handles all the methods like create and delete. But this model is the only one. Now what we have to do is, we have to create another model from the order menu. I have added the order menu from this order."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 7,
+    "start": 1665.74,
+    "end": 1804.54,
+    "text": "In serializer, this model serializer handles all the methods like create and delete. But this model is the only one. Now what we have to do is, we have to create another model from the order menu. I have added the order menu from this order. So, we have to define the create method explicitly. Next, we will use create as a list. I have added the order menu, so it will also work. We will add the order menu from the order API. So, we have made explicit create method. Now, we will create a method in the order serializer. Now, what happens in our validated data? So, the data that I have sent here, that is, if I post this data here, the same data will be sent to the validated data. This is the data that has been checked whether it is valid or not. Now, let's see the data we need to enter in the validated data. This item is not in our order item. Order is not in our model. So, we have to add something. Add items to this field. It is in the quantity. We don't need items. Okay. So, for this, we create a variable called items. And from our validated data, we get the data. And sorry, from the validated data, we pop our items field. So, we have to delete the pop data. Now, what we have done is, we have assigned variable items."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 8,
+    "start": 1780.3999999999999,
+    "end": 1876.44,
+    "text": "Okay. So, for this, we create a variable called items. And from our validated data, we get the data. And sorry, from the validated data, we pop our items field. So, we have to delete the pop data. Now, what we have done is, we have assigned variable items. In validated data, we have to pop the first data, then delete the second data. After deleting the second data, we have to stay in the pointy climate in the validated data. And the next variable is called items. We have already popped the gf data in the items. That's where the data will be. We have already popped the gf data in the items. Now, another thing is that we have to create an order first. When we create an order, it comes to the order menu. Here, we will see what we do when creating an order from the admin panel. We come to the order menu, add order. When we add the order, we add the order. and after adding the order, we will add the food. In the admin panel, first we select the order, after adding the order, we select the order menu. Now, when it is saved here, what happens is that first the order is created, then the order menu is created. When the order menu is created, then our flow here must also be the same. First, create the order, after creating the order, then create the order menu."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 9,
+    "start": 1863.94,
+    "end": 1998.44,
+    "text": "Now, when it is saved here, what happens is that first the order is created, then the order menu is created. When the order menu is created, then our flow here must also be the same. First, create the order, after creating the order, then create the order menu. So, what we need to do is to calculate the total value of the item. We have given the quantity value and then we have to calculate the price value. So, in this, we define the variable as total and the value as zero. Now, we have to select multiple values, multiple menus. item 1 is selected and then again, in the menu select ID number 12 and then select multiple data in this list select multiple data We have to get each data and get the total of each data. So, we have to do this. But we don't have to do multiple items. I have to get multiple data. Now, we have to use for to put a loop in the data. So, we have to use for in items. This is the data in our validated data. This is the value of our item. Now we have to get the price of this food item. So, to get the price of food, we get the food of this id in the item. So, from this item, we get food. Now, I have a item in my menu. Now, I will add an item.getFull."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 10,
+    "start": 1953.44,
+    "end": 2111.44,
+    "text": "Now we have to get the price of this food item. So, to get the price of food, we get the food of this id in the item. So, from this item, we get food. Now, I have a item in my menu. Now, I will add an item.getFull. Sorry, it's not full. It's a menu. Now, I will add an item.get11 in my first loop. Now, I will add an item.get11 in my first loop. we need to get the price of food id now we need to get the price of food id so what we need to do is total loss equals to food id price Now, we will do the same thing with the price of the food id. We do another thing. We do not have the quantity. So, we will get the price of the food in the first. In the price of the food, we get the price of the food. Now we have to get the quantity from the validated data. So we have to multiply the quantity from the validated data and put it in the food price. So we have to add the food price to the total. Now from here my total price will be. So, we have to get all the data from the validated data. If we pop the item, it will be deleted. If we pop the item, it will be added as items. So, we have to get all the data from the items."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 11,
+    "start": 2091.44,
+    "end": 2188.44,
+    "text": "So, we have to get all the data from the validated data. If we pop the item, it will be deleted. If we pop the item, it will be added as items. So, we have to get all the data from the items. In the first, the initial total is 0. Now, we have to get all the full data from this menu. we have to get all the data to get all the data we need to do a loop so from items we have all the data and after looping we have first data that is 11 and after item.getmenu we have to go to the value of this menu that is 11 in the food id and we have to get the price of this food id and from the validated data we have to get the quantity that is 2 and after the quantity we have to we will find the food price and we will look at it and total plus or equal to food price Now after doing this, we have to create an order Now when we create an order, we have to send something to the user We have to get the user as default user Quantity data has been calculated, total price has been calculated And the status is paid, by default false and by default pending So, we have to change it. So, after that, we have to create the order. So, order equals to order.objects.create"
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 12,
+    "start": 2166.44,
+    "end": 2286.28,
+    "text": "Quantity data has been calculated, total price has been calculated And the status is paid, by default false and by default pending So, we have to change it. So, after that, we have to create the order. So, order equals to order.objects.create In create, we can sync all the data from validated data. Another one is the manually calculated price. This is our total price variable. We have changed it to total price variable. This is called our total. This is called our total price field. We have calculated the total in this field. Now, we will get the order ID. After getting the order ID, we have to create the order menu. When I create the order menu, I have to add multiple menus and fields to create the order menu. This is only to calculate the price. Now, I have to add the individual data. So, I have to add one data from the menu. I use this order ID to add one data. I use this ID to add another data. I have to add three data. so, we will call it for item in after creating items now, we will calculate order item sorry, order menu in order menu, we will create objects after creating, we will see order field in order menu, we will see the order field We have to send the order ID that we have created. We have to send the order. And another one is our menu."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 13,
+    "start": 2264.4,
+    "end": 2456.92,
+    "text": "sorry, order menu in order menu, we will create objects after creating, we will see order field in order menu, we will see the order field We have to send the order ID that we have created. We have to send the order. And another one is our menu. We have to get the menu by sending items. Menu is here, items are being sent. So, here is our items.getMenu. after for gameIt simpler, we'll return the order Now number Addougat to the function I will show you the menu. I will show you the menu. I will show you the menu. The price of menu 11 is 123000. So, if we multiply 123 by 2, we get 264246. So, we have to execute this. Then, we will add the authentication credentials. We will add these. We will send the token. Then, we will add the total amount. The item number is 11. The item number is 11, the quantity is 200. Then, the total price is 246. I have already sent the other details. After clicking on it for once, you'll see the tool bar symbol. Then you fill in your apologize. Then... Check. Check. Click. Click FAQ. Click another up. Click Dong. Click againts you. Click! Click againttttttt keys and then, drag your cursor to the back, discussions will start. and now add total amount to it soon add id number 2 and add add number 11 なんか8589"
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 14,
+    "start": 2419.7400000000002,
+    "end": 2630.94,
+    "text": "Then... Check. Check. Click. Click FAQ. Click another up. Click Dong. Click againts you. Click! Click againttttttt keys and then, drag your cursor to the back, discussions will start. and now add total amount to it soon add id number 2 and add add number 11 なんか8589 Here we can see that the messages were created in front of intranet media in the Streets that day. 1936 is around 2020 and a few days later the eyes changing palettes create perplex копtink videos. Here in the registered quarters of reels complete with痕 three I think it's English support or English theatre. You can see here that some parts of atomic discriminator may Почему, some are nested in my panel site. If we use V Now, our order menu is also created. Now, the order menu will be created. Now, the order menu will be created. The modification is this. We have added the quantity in the order. So, I have to get the specific quantity of this menu. Now, here the quantity is 2. And we have multiplied the quantity here. ID number 11 also has two quantities. ID number 12 also has two quantities. Now I only need two in this menu. I only need three in menu number 12. If I want three quantities, then we can do that. So, we need to modify this. So, in order menu, add a quantity. add a quantity field in order menu then add quantity to each menu"
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 15,
+    "start": 2589.94,
+    "end": 2784.0,
+    "text": "I only need three in menu number 12. If I want three quantities, then we can do that. So, we need to modify this. So, in order menu, add a quantity. add a quantity field in order menu then add quantity to each menu now, menu number 11 is quantity quantity is 2 same goes for id number 12 I want to add 5,000 to the quantity. By doing this, the calculation will be different. To calculate, we have to find the loop and get the quantity from the item. We get the item from the menu. We don't get the quantity from the validated data, we get it from the item. In this case, the quantity is in the order menu. I will get the quantity from the items. If I get this much data in the first loop, I will define the individual quantity line of ID number 11 with the price of ID number 11. You can modify this. I will not modify it, I will add quantity data from the validated data. So, all the menus that are added will be the same. Now, I will choose between 11 and 12. I will create this. I will not change any questions. in result, it'll be studied on the exam The The The The The The The If you want to add individual quantity, remove the quantity from the order and add quantity in the order menu."
+  },
+  {
+    "video_id": "dj8rmZs_f5Y",
+    "source_file": "dj8rmZs_f5Y.json",
+    "chunk_index": 16,
+    "start": 2708.94,
+    "end": 2831.0,
+    "text": "I will create this. I will not change any questions. in result, it'll be studied on the exam The The The The The The The If you want to add individual quantity, remove the quantity from the order and add quantity in the order menu. After that, we have to get the quantity from the menu. And here, for item price calculation, you can use the item in the validated data. And I can see that I put all the rest of two words in not while changing the number, When I go to Can you start looking at it?"
   }
 ]
