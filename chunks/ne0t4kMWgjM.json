@@ -3,16 +3,104 @@
     "video_id": "ne0t4kMWgjM",
     "source_file": "ne0t4kMWgjM.json",
     "chunk_index": 0,
-    "start": 90.0,
-    "end": 880.0,
-    "text": "You ID is for your database. You have to get the ID code data like that. So first of all, the model is that it's to do list. To list for object. I'm going to get it. I'm going to enter it. I need to do that. I'm going to do list. Objects. Get any ID first to ID. You will left hand side. I need to do list for my field. I need to do it. I feel. I have another one back and my face don't understand here then I'll give a more and then mistake but it's on your好了 but it gives us the wrong way that's it I'll add any key function like call words. I'll add that function like call one and call. I'll add it. I'll add it. I'll add it. It's going to go like this. I'll add slash ID. I'll add ID number one. I'll add ID number one and call one and call one and call one. I'll add ID number three. I'll add it. So, time. I'll add bit. I'll add更 layer two. I'll see you guys in the next video. Thanks for watching. See you guys in the next video. Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thank you. Thank you. Thank you. Thank you. Thanks for watching. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you."
+    "start": 0.0,
+    "end": 118.1,
+    "text": "If your content is three image, edit these that are shown in cartoon deux pages Editor andiliI will make this edit too The houses that are added in edit are also fine We will add the form that we have displayed while creating the data in the Edit page. Now all we have to do is add Edit or Update in the submit tab. And for create tags, we have edit tags and update tags. Update tags. Right? Same as create. We have changed it. For create, we have update. For submit, we have update. Now, to render this edit page, we need a view. So, here we have created a new data, comment page or edit page, edit task. Now, we are going to do this single task. Right? There are multiple tasks. For this task, I have to change the title and description of one data. So, this means that our ID is going to be two. So, we will do to the list and then we will turn on the ID. Now, using this ID, we have to get the ID from our database table. So, first of all, our model name is tutulist. To get the object of the tutulist, we need to enter the ID of the object. So, we need to enter the object of the tutulist. Get and id equals to id. The ID of the left hand side is the field of the table."
   },
   {
     "video_id": "ne0t4kMWgjM",
     "source_file": "ne0t4kMWgjM.json",
     "chunk_index": 1,
-    "start": 348.0,
-    "end": 2380.0,
-    "text": "Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thanks for watching. Thank you. Thank you. Thank you. Thank you. Thanks for watching. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you."
+    "start": 99.67999999999999,
+    "end": 333.46,
+    "text": "To get the object of the tutulist, we need to enter the ID of the object. So, we need to enter the object of the tutulist. Get and id equals to id. The ID of the left hand side is the field of the table. And the ID of the right hand side is the id of the URL that we sent. And the ID of the parameter. The data we get is stored in this video. Now, after storing it in this video, we have to return. We have to render this. We have to render this. We have to do this request. And we have to render this page. So, edit.extendmpl . Now, I will create ID label. This is your function. I am writing .smlp. Now, to create this .smlp, go to the URL. Go to URL. And create another route. And create tags. So, we will create tags. slash IDs. Now, we are calling the play function. We are calling the editTouch function. Now, we need to create an ID in edit. So, right. To do this, we need to type edit slash id. Now, I need to create an ID number 1. So, I will create one on the ID. Either 3 or 2. Remember to listen by heart. Now go check the Run, Task, Edit and View options. Select all tranquility options and then click Okay. Welcome to our Channel. Welcome to our Channel. This is our edit page. This is our log page."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 2,
+    "start": 205.94,
+    "end": 456.32,
+    "text": "Either 3 or 2. Remember to listen by heart. Now go check the Run, Task, Edit and View options. Select all tranquility options and then click Okay. Welcome to our Channel. Welcome to our Channel. This is our edit page. This is our log page. I will write tag slash edit slash two and then I will put this two. If I put this three, then this will be my ID number three. This will be the edit page of ID number three. So this is our edit page. After that, we get the data. And here, we can also sort the existing data from here. Now, let's see what's in ID number 3. The ID number is new. So, we can see edit slash free word. It's not seen as new or something, but the ID number is discussed as new or something. So, it is already showing the existing data. So, after editing, the data is now in the first gate point. Now, after getting the data, we have to send the content to the data array. It is here. So, it is here. So, it is here. We are not using single data, we are using context. Now, from context, we are showing the input tag on the HTML page. So, we are using value. value equals to tax. I have written tax as the title. So, I write tax as the title. I will now achieve. So, it will work. I will now do it."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 3,
+    "start": 412.32,
+    "end": 604.18,
+    "text": "Now, from context, we are showing the input tag on the HTML page. So, we are using value. value equals to tax. I have written tax as the title. So, I write tax as the title. I will now achieve. So, it will work. I will now do it. Now, this is the text area of our description. So, this is the description of our text area. This is the description of our text area. This is the title of the description. This is the data from the existing database. Now, I will add three more data in the new database. edit new data by click submit button Geek fragment sorry in this file I have to update this data after pour new freaked pasa by click submit button now data is updated after complexation if Only we fixed only STG, horse If not, then adding multiple state now then we still have added disab claims if we Поd If not then also our Worst case will happen We have to do is, we have to put the post here. We have to put the post request here. Then here we have to do the same thing in the create. We have to remove the request from the post method in create. Let's do that. Now if the method in the request is request to post avoid. Let's do post avoid. First, get the data. I have created the data by clicking on the same way."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 4,
+    "start": 581.18,
+    "end": 687.18,
+    "text": "We have to remove the request from the post method in create. Let's do that. Now if the method in the request is request to post avoid. Let's do post avoid. First, get the data. I have created the data by clicking on the same way. So, I will copy the essay. It is not much of a difference. Title is now distributed. Now we have to update the single data. What to do to update the single data? First, we have to get this data. We have to get the data using ID. And that data is saved in the variable. We call that variable and call the field that is created by dot. If I have to call the title, then a.title. If I have to call the description, then a.description. But what is this a? We have assigned a single data in the variable. So here we have assigned the data in tags. If I want to change the title, I have to write title tags. From here, our data will come. We have to check it by creating a tag. So, the data will come from here. And then, we have to write the title in tags. This title is the title we called in the to-do list. And these titles are the data we have to use in the user base. Same goes for the text.description. This is the description that the user has sent. Now, if you want to print out this,"
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 5,
+    "start": 670.18,
+    "end": 781.58,
+    "text": "This title is the title we called in the to-do list. And these titles are the data we have to use in the user base. Same goes for the text.description. This is the description that the user has sent. Now, if you want to print out this, you can check it by clicking on the printout button. We have not printed out here. We have to do something else. To update, we have to save manually. a.save So, a is the variable that we call the data. When we save the file, we need to call the task. After saving the file, we need to go to the task itself. After updating, we need to get the three lines of the experience. These are the three lines, 60, 61, 69. Now, the user will ask us to update the data. What will we get when we click on it? We will get a post request and a condition check. The condition check will be that the post request is not received. We will send the data from the title field. The data will be sent from the title and description. And we will manually enter the data here. After entering, we will use the save method to save it. This is called database update. Now, in tab, in ID no. 5, we can see the new item. Now, we have added a new item in ID no. 5. Now, we can update it."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 6,
+    "start": 753.64,
+    "end": 1220.7,
+    "text": "After entering, we will use the save method to save it. This is called database update. Now, in tab, in ID no. 5, we can see the new item. Now, we have added a new item in ID no. 5. Now, we can update it. Back to you, ID no. 11, we can increase the level. Here is 9. Now we can now see what we need to do. For device we will enter device-by-umm from proper address reaches. Now press the button Open device chorese. Now press the Select button from zeros or right. And then we will create another route. And we will type the tag slash edit slash meeting. And then we will type the tag slash edit slash meeting. Again, you can invert these for a new object. antes Click on Edit button to check the URL. Click on Edit tax function to get the URL. Click on Update button to check the URL. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Go to the folder in the Superfood Bar ... I will make the project with the help of the Github button. I will add this project to Github. I will use the packages that I have used in this project. You can use the packages that you have used in this project."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 7,
+    "start": 1194.7,
+    "end": 1326.94,
+    "text": "I will make the project with the help of the Github button. I will add this project to Github. I will use the packages that I have used in this project. You can use the packages that you have used in this project. Now, we have to manually install this package. We have to install this package. There is nothing specified here. In the same case, we have created a file called Requirement. We have to install all the packages using this file in this project. All the packages are right. Now, you have to set up this project. To install this manually, you need to install the requirement.exe file. And install all the packages that are found in the requirement file in one file. So, you need to install this manually. In this case, you need to set up the package of ENB file as LIB. And install all the packages manually. So, after installing the package, we will need to go to the file and click on Requirements.txt. After that, we will get a file in Requirements.txt. And we will install the package in the package. Now how can you install the new Members Tani on the app? You can you install the include person onатыr or digital data in this Swift API file And then we will install the requirement.txt file. And we will install all the required files in the same way. And we will install all the required files in the same way."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 8,
+    "start": 1304.06,
+    "end": 1531.08,
+    "text": "You can you install the include person onатыr or digital data in this Swift API file And then we will install the requirement.txt file. And we will install all the required files in the same way. And we will install all the required files in the same way. So, this is the requirement file. The document's name usually appears as вающный. from here we will next download is or you are using API in Glück Organization when the key are clear once we haveiksi that we pass change . we are adding in file after adding file. we said .env after messages we add press just single key as we like to public to send private. we record file. and we will delete this Now we will import the .env file So we will create a package from 3it install python.env After installing, you can update this requirement.thc file. To update, do the same thing. pip freeze requirement.thc And then, add the updated package. And then, we will see the result. We have already installed all four. Now, what will happen to the pip? After installing .en, we have still freezed it. Now, we will see the file in .en. After this, Now we will import dotenv from dotenv. Now load.env is the file that we will load. Now we will load dotenv. First of all, loading is a function. Now we will call it. Now we will call it. Now we will import it."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 9,
+    "start": 1504.08,
+    "end": 1689.84,
+    "text": "After this, Now we will import dotenv from dotenv. Now load.env is the file that we will load. Now we will load dotenv. First of all, loading is a function. Now we will call it. Now we will call it. Now we will import it. We will import it as os. Now, we will load the dotenv file of the OSDOT.ENV. We will call the dotenv file as get. Now, we will call the variable that we use to get the value of value. Now, we will call this variable and this variable will also be called. Now, we already have a debug.env file. So, this is os.getenv and for the crashes, we are already using debug. attend. Again, we will call PythonFile to PythonManage.py and幸Ah In the file, we also want to import the os. and you can see, from os.getenv about Oentin that we call secret tree2. I will create a new script and name it as gblog. I will write gblog.eng and enter the last name as gblog.eng. Now I will create a new script and name it as gblog.eng. Now I will create a new script and name it as gblog.eng. Now we will use API key to do the same process. In ENV, we will use API key and in ENV, we will use .env. Please repeat the sentence Soy healthy! Non healthy food… Tasty dish … Flowers … Health area… Various etiquette points.. Thank you for watching. Welcome to our Channel."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 10,
+    "start": 1623.84,
+    "end": 2165.38,
+    "text": "In ENV, we will use API key and in ENV, we will use .env. Please repeat the sentence Soy healthy! Non healthy food… Tasty dish … Flowers … Health area… Various etiquette points.. Thank you for watching. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Then select the You can see the coming pattern & their style. This pattern is standardised one. No need using artificial code to make new Franz's pattern. So you can directly production only with them by using other useful orders. Welcome to our Channel. Welcome to our Channel. Welcome to our Channel. Now, there are some questions in this. I don't know if you have any questions. Today is our last day. So, for the goal, I will start with the goal. So, for the goal, this is a project setup. Project setup, Maya. Right? And, in that, And for this, I will add a git holder. And I have to do the installation of the JAN. And I will add a .env file. And I will add the requirements.phd file. Open the file here. We need to頭 Subscribe to our channel for more videos. After github flavor changes it will now upload the final LED and the saltiness will stretch the скажs We have supported non- Где is this present? So, we can do this for notes as well. We can do this by listing out notes."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 11,
+    "start": 2065.38,
+    "end": 2332.36,
+    "text": "Subscribe to our channel for more videos. After github flavor changes it will now upload the final LED and the saltiness will stretch the скажs We have supported non- Где is this present? So, we can do this for notes as well. We can do this by listing out notes. Or we can create a new note. And then we can do this for other notes. So, we can do this for notes. And this is also possible. So, we can do this. US3 → wears notepad from notebook front . ック Toten�� We just photo this.. the export backs Now we click theuca to ggh We ike this conceptualily And we make Noah's planet we trick them So In the note column, we can see the type of note we want to write. We can also see the type of new project we want to create. We can also see the type of new project we want to create. Thank you for watching. Do you want to keep pushing forward? Please clear your phone. No, I'm not going to leave. I'm not out of the game. No, you're not out of the game. You're not going to leave. In order, we have to make a to-do list with notes. You see, we were Ads, and we ordered a whole type ofutorankhake… …and I added a whole type of worked up project starting from notes again. So it is their project now."
+  },
+  {
+    "video_id": "ne0t4kMWgjM",
+    "source_file": "ne0t4kMWgjM.json",
+    "chunk_index": 12,
+    "start": 2300.9,
+    "end": 2399.62,
+    "text": "In order, we have to make a to-do list with notes. You see, we were Ads, and we ordered a whole type ofutorankhake… …and I added a whole type of worked up project starting from notes again. So it is their project now. And if you even notice something that needs extraction on all the back. You can see the exact feel and focus feel of each project. Now, we are using single model. So, it is better to create a small project. Or, you can create a small project by presenting it. Now, we will create a table with database. And, create a table with database. And, create a table with database. during up to class,"
   }
 ]
