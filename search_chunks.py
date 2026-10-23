@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 
-COLLECTIN_NAME = "learn_vault"
+COLLECTION_NAME = "learn_vault"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Load the same embedding model used for your stored chunks.
@@ -19,10 +19,10 @@ def search_chunks(question, limit=5):
 
     # find the most similar vectors in qdrant.
     results = client.query_points(
-        collection_name=COLLECTIN_NAME,
+        collection_name=COLLECTION_NAME,
         query=question_vector,
         limit=limit,
-        with_payload=True
+        with_payload=True,
     ).points
 
     if not results:
