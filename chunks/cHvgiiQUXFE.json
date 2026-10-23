@@ -3,88 +3,272 @@
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 0,
-    "start": 180.0,
-    "end": 480.72,
-    "text": "So, I'm going to create model. If you want, I am going to create user model now. Then go to user model and then go to user model. You can work create. This is all funny. I will go off and add my user model already. So, I am going to create a model and use it. I mean create one. I mean create one. I will go to my name. I will manage the three. I need software or MEPI tartware right here. Super user model we don't talk about. We'll say this. I in straight lines. Now you can put in the user name and call. If you don't have any name name and this also it calls as a ArbeitsC. Then ,we'll do now. Then we'll see that there are so many different images. So, in an principle, it's written in the book, but it's written in the book, it's not a principle. So, it's written in the book, but it's not a super user. I'm a staff one boy, you're an administration, but he had a book, you staff, and when you're a staff, you're a staff one, so, you're a staff one, but it's part of the board. I am doing command. Welcome SL, you size, change, password,1word is running, all right? Neverова one. Europi and automation, 九Imましょう, UN. eight blog tell you know it I am doing I am doing authorization. You are authentication and authorization. I am going to I have to"
+    "start": 0.0,
+    "end": 109.0,
+    "text": "Now, we have an index here. And here we have a page. This is the URL we manually added. Here, we added the settings in the URL of this project and added it manually. We have two routes. Now here, admin slash is already predefined. We haven't added this. We've been adding this. So, this is admin match. Now, this admin is on the admin panel. Now, from this admin panel, you can log in by writing your username and password. You can do all the admin tasks as an administrator. Now, admin is the principal of our school. Now, in this laptop, you can do something in the system. You can do something in the system. But you can do something in the configuration. If you want to change anything in the system, you don't have to do it manually or as a general user. You can do it as an administrator. As an administrator, you can run PowerShell. And then you can run the command line, which affects the system, and then it will be executed. Now, this administrator is the same. I have created one model here. Now, we will see the details of the student in the general user. For example, we will see the details of the student in the school. Now, we will see the details of the student as a student or as a parent. The details of the student are not the names or the general details."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 1,
-    "start": 437.0,
-    "end": 1001.96,
-    "text": "I am doing command. Welcome SL, you size, change, password,1word is running, all right? Neverова one. Europi and automation, 九Imましょう, UN. eight blog tell you know it I am doing I am doing authorization. You are authentication and authorization. I am going to I have to I have to I have to I have to I have to I have to I have to I have to So I am going to add a bitrabaco. I am going to add 5.5. I am going to add a custom model. It is going to be a custom model. It will be modified. I am going to add a bitrabaco. You are going to remember this list of complex app sensors. So, given folders, they function or I don't know from I'm going to add now I'm going to find five, five, five function, I call it. Let's go for a fuller, depends on the app. So, I'll go for a fuller. So, I'm going to add do you lack some So, some object will data. Some data will object and condition. And this will be the comfort part. I remember you are a string word. I like to say that you can use it. If you data will title with word. And this will be the list. And you know, it's not the answer. So, this is called. You want to word search. And don't title. Our respective title used word. You do that. So, you did that. Title. Title."
+    "start": 89.0,
+    "end": 205.0,
+    "text": "For example, we will see the details of the student in the school. Now, we will see the details of the student as a student or as a parent. The details of the student are not the names or the general details. We will see the details of the parents and the background of the parents. The teachers will not change the personal information. They will not change the personal information. But the teachers will change the grade of the students. Now, our principals will change the overall information of the students. They will change the class schedule. The class schedule will be changed. The students will be given a table and a desk. The accounting will be changed. The accounting will be changed. The details of the student will not be changed. So, we will see the details of the student in the course. We have not done the two promotions yet. Now, we will see the administrator. The administrator is the login one. Now, the administrator is the double login one. Create, Update, Delete, Get. Now, we will see the user name and password. Now, we will see the create button. In default, we have not created the user model. We have already created the user model in Django. This is not the case. This is the app. In the app, the user model is already used. So, we will use the default user model to create the admin. To create the admin, we will use the command,"
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 2,
-    "start": 977.96,
-    "end": 1146.96,
-    "text": "If you data will title with word. And this will be the list. And you know, it's not the answer. So, this is called. You want to word search. And don't title. Our respective title used word. You do that. So, you did that. Title. Title. Title first. I mean, it's fine. You want to. Save one. New one. So, thank you. And this is the condition. I want to. I want to. Like student. So, I want to. Edging score. I really want to. You know. I want to. You can. I am. object like. You want to. You string. I want to. Of. I mean panel cost. Of. class. And we need to list and we customize. So to list and we want to add you to list and we need one again. This above your class sign. You don't do this model to customize and we can customize. So you want to list and we want to add. So whatever you use, you can add me included. You add me but a model and you model and you model and we need. You add me panel. Cosery Cosery data like customize and we need to predefined. You get a feeler. I use but I'm customized. Right? So putting on it. You need to eat up. Well, it's available. Yes, it's available. Our list is available. You can use it but it has access. You can use it and you can feel you know you know you know"
+    "start": 186.0,
+    "end": 300.0,
+    "text": "We have already created the user model in Django. This is not the case. This is the app. In the app, the user model is already used. So, we will use the default user model to create the admin. To create the admin, we will use the command, manage.py and create superuser. The administrator is the administrator. Create superuser. Now, we have to add the username. I will add the username as sd. Now, we will add the email. If we do not add the email, then it will be the error. Now, the password will be the password of the red screen. Now, we will add the password. If we type it, we will not see it. If we type register, we will not see the word. Now, this is the validation. The password is not here. I have added the password. Now, here is the validation. Now, in the settings, click on the settings, and select Auth password validator. Now, check the password that you entered, and if you don't get anything, just give a warning. If you don't get anything, just check the password value. Now, you can bypass this, and guess the password. Now, you can create a super user. Now, you can see the database. In the database, you can see the table called Auth user. This Auth user table, it contains my account, and I have created a super user. Now, in this, ID number 1 is the password. The password is passed."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 3,
-    "start": 1119.96,
-    "end": 1655.96,
-    "text": "get a feeler. I use but I'm customized. Right? So putting on it. You need to eat up. Well, it's available. Yes, it's available. Our list is available. You can use it but it has access. You can use it and you can feel you know you know you know you can display it. You can display it. You can see it. You can see it. You can see it. So what is you can buy it and you can display it. You can customize and we need the understand was like the 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 6 5 6 5 6 6 6 6 But, you know, No, My, I will try to go to my mind. You see, Title, Statism, You know, Title, Yes, So, It's what I command, I'm using, So, It's what I command, You command, I'm Model, I'm Model, Objects, Objects. Fritural. You can do anything. This is it. Yeah, iliation will still go. Are you Multi evaluator, Stop. You thought, New airport You had delivery. Jai later, Liste, For Yeah. I the So and the time processing time time. So the time. So the time. So the time. So the time. So processing class model model or is it running on a bottom?"
+    "start": 281.0,
+    "end": 394.0,
+    "text": "Now, you can see the database. In the database, you can see the table called Auth user. This Auth user table, it contains my account, and I have created a super user. Now, in this, ID number 1 is the password. The password is passed. Now, the super user, here we have created a super user. Now, in this super user, you must select the password. Now, the password is not here. It's not here. Now, the staff of the system, we will create a system account that is active. Now, active and non-active, we will change it. When active, we can log in. When active, we can't log in. Now, the staff of the super user, we will create our admin panel, We can also use admin panel. If you are a staff, you can use super user and staff. Super user and staff are the same. We can use them in login. All users are staff. Super user is not a staff. Here, there is a principal. He is also a teacher. But another teacher is not a principal. Another person is a staff but not a super user. Staff can also be logged in the admin page. But here, staff can't work with admin or super user. Staff can only perform actions in limited. But if you want to login, you have to contact this staff. If you are active, you can log in. Login is active. Staff is active. Super user is active."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 4,
-    "start": 1491.96,
-    "end": 2082.16,
-    "text": "Are you Multi evaluator, Stop. You thought, New airport You had delivery. Jai later, Liste, For Yeah. I the So and the time processing time time. So the time. So the time. So the time. So the time. So processing class model model or is it running on a bottom? It's on a data option. K.O.K. Decorator line always in front of class. On the worksheet, without the decorator, admin side register, always after class, you class define, decorator line class, and you use the decorator, you use admin side register, but it was not on both. Now only shaking. So. gesund gloves in Thank you. Thank you. Hey man we're class man we're atmosphere that ad mean dot model. model. This must be a period, particular instant or key function or key key or key. Like suppose model, model admin. Model admin. Is it? This is one of the class. Class, I am going to open my to in-hate in some time. Is it? So, you are telling me, I am already predefined in the class. I am going to in-hate. The admin is going to class. No. admin model. Model. You want to go to file. No. You want to go to file. No. Sorry. Class. I am going to add. File. I am going to. It's. It's. admin. File. So, to like you. It's. admin model. It's. VP, and We جو لKimہ کو.. The function D行 من forte. 4. 12. In short. 0."
+    "start": 368.0,
+    "end": 476.0,
+    "text": "But here, staff can't work with admin or super user. Staff can only perform actions in limited. But if you want to login, you have to contact this staff. If you are active, you can log in. Login is active. Staff is active. Super user is active. Sorry, super user is also active. But if you are not active, then this will be deactivated. Account activate, account deactivated. And then, if the active is false, then this will be deactivated. But you can log in from here. So, here, I have a date. When to join, when to leave. Now, it's done. So, I will go. So, I will go. So, now I'm your abode. Let's go. I will say I'm your markup. Now my account and person living in this place. The one I made before me is also locked. Yes, one on the other side is my Charlie Puth. I do. For this reason, I could message you to log in now. Because here you see bit as account or password. From here, Action, these type letters. You can see younger room number here. So it's very easy to me. So, please move. Now, we have created all the apps here. We have created the apps installed in the app. These are the tables that we have to show in this admin panel. Now, we are coming to the authentication and authorization. This authentication and authorization is the name of our app."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 5,
-    "start": 1882.52,
-    "end": 2438.8,
-    "text": "No. You want to go to file. No. Sorry. Class. I am going to add. File. I am going to. It's. It's. admin. File. So, to like you. It's. admin model. It's. VP, and We جو لKimہ کو.. The function D行 من forte. 4. 12. In short. 0. What we receive is an order of董事部 뭐TE Marked 1. 8. 25. 50. All data are like data. I read all data from table. I know I get going. I know model name. Objects. All want. Right? So it up. I mean, it's up to. I get going. When we see models. object. I'm not going to. If you do list. The object. Don't. Don't. Right. Over to list one. The last. You are. Models file. Models like. Review my. I'm going. I'm. So from. Dot models. Dot models. You know. I'm. View file. Models by the same. Direction. Or same. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. I'm. To. to. Let's. Stewed. Donald. 잡A. We. greens. By the same idea. That. levie probabilizes. or when. If you. Photo frame. We. take. Know I'm. 2888000 and you know. crosstalk. You. But This is the same The same In case You text So That's The text Your function You have one The use file You Text You have And You have You have And And If you Text You have You have You have And We have template global find more than boy."
+    "start": 453.0,
+    "end": 545.0,
+    "text": "Now, we have created all the apps here. We have created the apps installed in the app. These are the tables that we have to show in this admin panel. Now, we are coming to the authentication and authorization. This authentication and authorization is the name of our app. The name of the app is the table and class model that exists in the app. These are the classes created by model swap UI. Therefore, there is an app called authentication and authorization. Inside that, there are tables and classes called group and user. So, the name of the app is authentication and authorization. Now, what is the name of the app? It is authorized. Okay. This authorized. So, we have created our authentication and authorization. Here, it is called groups and here it is called users. Now, I have denoted this one as user and this one as user. Now, from this, I have got all the details of multiple users. For example, I have created an SEO and now I have created more users than this. All the users are seen here. So, all the users are seen here. From here, users are added to the queue. It is added as groups. Now, we have created a to-do list here. But now, if we restore it in the admin panel, it will be in the to-do list, in the plural. Right? Just because there are multiple data in that table. So, what happens? It is only S."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 6,
-    "start": 2278.16,
-    "end": 2573.8,
-    "text": "The same In case You text So That's The text Your function You have one The use file You Text You have And You have You have And And If you Text You have You have You have And We have template global find more than boy. It's my restaurant. Right? Now, do you got any idea any idea any angle probably play. project owner. work. You are as I'm on the read. also. So I'm going to get you one more. So you, you are as file. I'm going to read. or I'm going to use my I'm going to use. In program. Hey, so what's that? include. for this. for this. for this. So I will I'm. I need. be. a brothing First, for toer back what. And I'm going to buy you one. I will not be able to see. I will not be able to see. I will not be able to see. Notification of my words. You are also defined. I need this. I need this. This one. Every app. You are single. You are a file defined. You are single. You are single. You are a file defined. You are a file defined. You are amnabally fake. I am a file defined. If you notice that pureعة and fake you are amojlying that pureعة is acie합니다. You are amodramatic and real story. I want to see someれv big dismantling about you. If you see some relatives who want to see other humanlike thing"
+    "start": 532.0,
+    "end": 611.0,
+    "text": "It is added as groups. Now, we have created a to-do list here. But now, if we restore it in the admin panel, it will be in the to-do list, in the plural. Right? Just because there are multiple data in that table. So, what happens? It is only S. It does not match with the text class. Right? Multiple data are displayed. So, it is in S. It is in the plural. And here, we have the listing action. So, we have changed it. We have created new data. We have changed new data. We have deleted new data. So, all of them are here. All of them are here. Okay. So, now, we have a listing action. So, now, we have created this. This is our default app. Now, we have to restore this model from the manually created app1 to the admin panel. Right? Now, for which we are going to do this? We have to restore the admin.py file from the app. Okay. So, in admin.py file, we have to restore the custom models. The custom models. Right? There is nothing really special about the admin.py. But in the setup folder here, we have to modify it from our admin behalf on the page. Right? So, if we are going to modify this, come here at the register there. And there at the display and thisicon and we put our refit here. Right?"
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 7,
-    "start": 2553.8,
-    "end": 2868.8,
-    "text": "You are amnabally fake. I am a file defined. If you notice that pureعة and fake you are amojlying that pureعة is acie합니다. You are amodramatic and real story. I want to see someれv big dismantling about you. If you see some relatives who want to see other humanlike thing People Is糰 You are a valley for that someone is there. So I'm going to say no, but I mean I can't treat you, that's why I'm here. You two list object like call word, I mean I'm going to get you to on my head. So I said, I'm going to say, I'm going to say, I'm going to do you that's why I'm here. So I'm going to say, I'm going to say, I'm going to do you that's why I'm here. I'm on block title, I'll block title, I'll block title, I'll sign up to do this file. I'll block body, block body file, and I'll block body file. This is this is You list and flatten It's coding Even You If I am going to write a title description for this title. I am going to write a title description for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title."
+    "start": 597.0,
+    "end": 697.0,
+    "text": "But in the setup folder here, we have to modify it from our admin behalf on the page. Right? So, if we are going to modify this, come here at the register there. And there at the display and thisicon and we put our refit here. Right? So, if we want to change something in this page, then we can written admin.py base. And for that, we have to change admin.py base from admin page to admin panel. Right? So, firstly, we are going to restore our model into adminpanel. Now, I am going to restore the model. This is my model. This is the model. I am going to restore it in the admin file. You can restore it in the admin file. You can see it here. Now, I am going to register the site. I am going to restore the admin site. The admin is imported from here. From the admin, the admin site, the admin panel site, we will restore it here. Now, this is the list that I have. I have restored the model. Now, what do we have to do to use this? We have to import from the .model word to the list. Now, in different folders, we have to import the function from here. From the name of our app or folder, which is our file, we have to call the function. Now, here our folder depends on the app and project. So, in the project URL,"
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 8,
-    "start": 2814.8,
-    "end": 3090.8,
-    "text": "I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title."
+    "start": 675.0,
+    "end": 761.0,
+    "text": "Now, in different folders, we have to import the function from here. From the name of our app or folder, which is our file, we have to call the function. Now, here our folder depends on the app and project. So, in the project URL, we have imported the app from Bing. So, we have to import the app from the app in detail. This is the file in the app editor. This function is in that file. Now, what do we have to do here? This model file is in the same folder as the admin file. The model is here and the admin is here. So, in the details, from this app, from this file, it is good. So, by doing the .model, what does it do? I am in the same file. And this admin.py file is in the same folder. In that folder, the model.py file is. So, if the same directory or the same folder is there, then you have to define everything in the folder. So, in the file, you have to add the name of the file. So, in the admin file, I have to import the model file. This is done. So, I have to do this. And here, I have to refresh it. And then, the name of the app is app1. And then, the model that I have defined in that is to be listed. Now, in this, I have to enter the model. I have to enter the model."
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 9,
-    "start": 3020.8,
-    "end": 3296.8,
-    "text": "I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title."
+    "start": 747.0,
+    "end": 837.0,
+    "text": "And here, I have to refresh it. And then, the name of the app is app1. And then, the model that I have defined in that is to be listed. Now, in this, I have to enter the model. I have to enter the model. As soon as the model data is created, it will be displayed in the database. Now, this is our model object representation. Object representation of the class. Now, how is object representation done? Which class object is being described? To-do list class object, object id 2. To-do list class object, id number 3. Now, we have to put all the names of this in here. The title is new. And then, the description is search. So, true status data. Now, it is shown in the status. Now, I have to create a new data from here. To-do list class. Go to the to-do list class. And then, from admin panel. I will add admin. And this script means from admin panel. I will add it. Save it here. Here, the id number. This is being created. Now, the data we have created is the id number 8 here. So, I will put 8 here. Now, I will also do the same here. I will put 8 here. I will delete it. I will press yes. And then, delete it here. Right? Now, we have created this. To create, add to-do list class. To delete, here are the delete button. Now, to update, what is this?"
   },
   {
     "video_id": "cHvgiiQUXFE",
     "source_file": "cHvgiiQUXFE.json",
     "chunk_index": 10,
-    "start": 3236.8,
-    "end": 3316.8,
-    "text": "I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title. I am going to write a title for this title."
+    "start": 825.0,
+    "end": 900.0,
+    "text": "I will put 8 here. I will delete it. I will press yes. And then, delete it here. Right? Now, we have created this. To create, add to-do list class. To delete, here are the delete button. Now, to update, what is this? Here, we have to update the video. Now, here, the id number 2. Update. Here, something is happening. So, editing. Editing from admin panel. I will add it here. And then, save it. Now, here, it is saying change. Right? Now, it is saying editing from admin panel. Right? Now, what happens to the confusion again? Here, when I have to post a data, I have done it in all. But now, I have to post a data with the title new. Go inside. There is no here. There is no here. I have to post all. So, I go inside. Open it. So, now, we have to change the inner string representation of this object representation. Right? Object is just we have to change the inner string representation of this object. Right? This is object representation. This object representation has to be changed to string representation. For that, here we have to change it to model. Right? In this model, we have one function. That is, str. str is called. This makes string representation to object representation. Now, in my object representation, we can use any glass object. The ID of the object has to be described. Now, as a string,"
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 11,
+    "start": 888.0,
+    "end": 999.0,
+    "text": "to model. Right? In this model, we have one function. That is, str. str is called. This makes string representation to object representation. Now, in my object representation, we can use any glass object. The ID of the object has to be described. Now, as a string, how do I get this data? To get this data, I have to have a string representation. Now, let's discuss string representation. So, I am going to run the string. And, in this string, I have to write string representation. Let's do this. First of all, let's see Now, you can see how to use the data. This is user-friendly. This is also friendly, but it is difficult to search for data. Now, you can see the SDR. Now, let's do the same with the representative. Now, let's return this. So, return by team. Now, I will return the data. Now, let's refresh this. Now, all the representative data is coming. Now, I will return the data. All the object data is coming. But, the object representation of the data is not coming. So, the object representation is converted like this. Now, this is a string. Now, how can we represent this? User has represented the data by using the title of the data. And, you can see the result. So, for this, you have to add the self.title. Now, you have to represent this data by using the respective title. So, this means that the title of this data is new."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 12,
+    "start": 978.0,
+    "end": 1089.0,
+    "text": "User has represented the data by using the title of the data. And, you can see the result. So, for this, you have to add the self.title. Now, you have to represent this data by using the respective title. So, this means that the title of this data is new. The title of this data is second. The title of this data is first. Now, let's change this. Save this. Now, the new data is represented. So, this is what it does. And, the representation of this data is changed. Now, the student's record is here. Now, when you do attendance, you represent the data by saying 1, 2, 3. The details of your data are same. But, the representation is different. The representation is different. Here, it is the same. Now, the object is converted into a string. There is no use of string representation. Now, the admin panel is customized. Now, if you want to leave it like this, then you can leave it like this. Now, there may be multiple screens on any table. From those multiple screens, you can see the table. And, I don't need to go inside to see every detail of every data. I can see the data in detail, table-wise. It is very easy. So, we create a class in the admin panel. Right? Class. Now, let's go here and create a class. Now, this is the admin customization of our to-do list. So, we add to-do list admin. Okay."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 13,
+    "start": 1068.0,
+    "end": 1166.0,
+    "text": "I can see the data in detail, table-wise. It is very easy. So, we create a class in the admin panel. Right? Class. Now, let's go here and create a class. Now, this is the admin customization of our to-do list. So, we add to-do list admin. Okay. There is nothing to be a to-do list admin. Now, this class is the customization of our to-do list model. The customization of the admin panel is related to the to-do list admin. Now, we use it here. From this admin, we import the admin. From this model admin. In this model admin, we have already predefined how to customize the data in this admin panel. We have already predefined that. We customized using the predefined data fields. Right? So, we change it now. And, this is the list display. Yes. Now, in this landing page of our list display, I can see all the data of the user before coming to the to-do list. Now, when we look at this data, we can add the list display to see which fields the user can see. So, we add the list display to see which fields. This list display, you can add it to this page. Yes. And, it doesn't have to be shown in details here. Right? So, it means title, description, status. Let's put all of this here. So, this is our title. This is the description and the status. Right? And, then, what's the other thing?"
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 14,
+    "start": 1151.0,
+    "end": 1266.0,
+    "text": "Yes. And, it doesn't have to be shown in details here. Right? So, it means title, description, status. Let's put all of this here. So, this is our title. This is the description and the status. Right? And, then, what's the other thing? Here, we have to add this customization while restoring it. You have to define the customization here, define the class here. If the model is not restored, then there is no change in the model. After adding the customization, we can also change it with our model. After that, we can add our customization. Now, the title, description and status are displayed. Now, we can also add the ID field. We have not defined the ID explicitly, but the ID field is created. In the database, it is also created when we run the model. So, we can also add the ID. Now, we can also add the ID title, description and status. So, the list is displayed here. Now, we can add the list in the organized table and form. Now, we can also add the search field. Now, we have a lot of fields in this model, so we don't need much customization. After that, we can add the fields and customize the model. Now, we can also add the search from the title. And we can also add the search from the ID. Now, we can also add the search from the title. And we can also add the search from the field."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 15,
+    "start": 1253.0,
+    "end": 1371.0,
+    "text": "Now, we can also add the search from the title. And we can also add the search from the ID. Now, we can also add the search from the title. And we can also add the search from the field. Here, we have a search field. Now, we can search for the person from this field, the ID and the title. So, we can add the search field. Now, from here, if I search for five, If you search by the name of ID, it will not check the status. If the data is true or false, it will not check the status. It will check the title and ID. If the data is true, it will not check the title and ID. If you want to enable search from the status, you have to add the status. We will use the filter out status to filter out the search. So, we will use the filter out status. You can use tople or list to filter out the status. In tople, we filter out the status. But, if you add only one data, it will be a problem. That is the value of the list filter must be list or tople. We have defined tople as a tople. But, to edit tople, we have to add multiple data. In this, I have defined list and there is a single data in the list. If you define it like this and refresh it, it will work."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 16,
+    "start": 1355.0,
+    "end": 1465.6,
+    "text": "We have defined tople as a tople. But, to edit tople, we have to add multiple data. In this, I have defined list and there is a single data in the list. If you define it like this and refresh it, it will work. But, if you add tople, you will have to add as much data as the data. In this, you have to add as much data as the data. In this, you have to add as much data as the data. So, in the same way, I will add tople. Now, you say that this data can be used, but you want to use tople. If so, after you add data, you must add tople. And, then there will be no problems. Now, here we can filter the intople out status In wanna filter out by new data for vie status Why do we say vie status? We can use tople via the history and vie status. So, here vie ب заг ٽ Now, we have Data of fraud. click on save now all my data's all inside users already know status and status I am nadiegoob we are分 genom kolay key access with it False status is true statement. By status, yes means new, new means false. Now, I will change it to new. By new, I will change it to false. Now, I have changed it to true and false. Now, I have changed it to true and false."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 17,
+    "start": 1432.12,
+    "end": 1558.6,
+    "text": "key access with it False status is true statement. By status, yes means new, new means false. Now, I will change it to new. By new, I will change it to false. Now, I have changed it to true and false. Now, I have changed it to true and false. By status, yes means new and false. By status, yes means true and false. Now, I will run command from search log filter. model name.objects.filterall Now, I will run it. command is entered. command is entered. Now, you have to display multiple data. How many data will be displayed on this page? I will add that in the video. for that, list per page. I have six data in this page. I have six data in this page. So, in this page, three data are displayed. So, this is for page number. this is for page number. If you add this. in that way, three data will be displayed in this page. Now, For the first page, the second page, three data are displayed. So, the third page has three data. So, this is for our page initial. There are not many data. So, this is not important. But, if there is a lot of data on this page, it will take time to load the data. So, this is not important. Processing time is more. So, we have to limit it. In this page, we have to display data in hundreds or in thousands. There are four processes."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 18,
+    "start": 1543.6,
+    "end": 1645.6,
+    "text": "it will take time to load the data. So, this is not important. Processing time is more. So, we have to limit it. In this page, we have to display data in hundreds or in thousands. There are four processes. So, we have to customize it. Now, while restoring this, you have an option in the admin site register. Restoring the to-do list and to-do list admin. Restoring the customization class and model. There is another option in the decorator. Add the rate. Add the rate site.register. It is admin.register. admin.register. And what do we restore from admin.register? We have to restore the to-do list. We have read the decorator before. Now, what do we do? The method that is used in this class is to restore the to-do list in the register function. Right? Here is the model. Here is the model. We have to show this. So, this is the way to restore. There are also other ways. If you are using decorator, you can use this. Either use this or this. Use this one. Use this one. Now, if you want to use this, you have to add the model and the to-do list. You have to restore it. Now, you have to list out like this. You have to restore like this. You have to add the model name. And with that, you can also do this class. You can do this process manually. As an argument. Right? This function."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 19,
+    "start": 1630.6,
+    "end": 1875.1,
+    "text": "You have to restore it. Now, you have to list out like this. You have to restore like this. You have to add the model name. And with that, you can also do this class. You can do this process manually. As an argument. Right? This function. It works the same as the decorator. So, we did this too. And we did this too. There are two options. Key or key. Decorator is always in front of the class. And the class is always in front of the class. So, this is the way to do it. So, that's it. Thank you. Always in front of the class. Right? Yes, sir. Then, without decorator. When you restore the admin site, always after the class. Only after you define this class. The decorator comes after the class. And you are not using decorator. You are using the admin site restore. So, after you define the class above. After you define the customization class. Only after you restore. Both model and customization class. Explained cherry blossoms with thefruit leave A week later Thank you. Please continue. Please proceed. We are now Welcome to our Channel. In this class, the attribute that we have passed is admin.models.model What is the function or instant after the period? What is it? Suppose, model admin model admin Yes This is a class In class, we have inheritance in OP Yes This is already predefined class We have inherited this class"
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 20,
+    "start": 1851.1,
+    "end": 1987.1,
+    "text": "What is the function or instant after the period? What is it? Suppose, model admin model admin Yes This is a class In class, we have inheritance in OP Yes This is already predefined class We have inherited this class Admin is also a class, isn't it? Admin is a model This is just a file This is a class called model This is our admin file We have to go here This is just a file called admin So, in this case Admin model class Click on it Admin py We have done this Here, this dot model and to release It is like this We have imported this model as a file From here, we have imported this admin file Now, we are doing this What to do What to do From app1 We can do import model from app1 We have to do this Now, how do you describe this? How to describe this? We have a folder called app1 In this folder, this model From this file called model We have imported the file called model So, this admin file It is being imported from work This admin file is being imported from django.contrib And in this admin file Our model admin class What is it? What is it? This admin file is being imported from work And the two d list admin Is inheriting the features of model admin Yes, yes There is nothing else here In this, we have some things"
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 21,
+    "start": 1951.1,
+    "end": 2098.6,
+    "text": "And in this admin file Our model admin class What is it? What is it? This admin file is being imported from work And the two d list admin Is inheriting the features of model admin Yes, yes There is nothing else here In this, we have some things Admin panel, admin model creation, and then sales From this, we have We have used and created data For the crewed operation How was this? Yes So, now we create a function. We can use this function to get data from the database. So, we are sending static data to the viewer. We have created a dynamic in the HTML. By creating a dynamic in the HTML, we can make the views static. In the view, I have defined only static data. Now, if we don't do this, we will get data from the database. We will get the data from the database. And we will display it on the frontend through the HTML page. So, we will change the index to 6. I will not change it to static. I will change it to the home page. We will change the home page as well. And we will create another function. We will create a new function called def. Sorry, def. And we will create a function called tax. And we will set a person as our request. Now let us... Those data from the model will get the data. To get, we will upload a command. It is ."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 22,
+    "start": 2072.6,
+    "end": 2180.6,
+    "text": "We will create a new function called def. Sorry, def. And we will create a function called tax. And we will set a person as our request. Now let us... Those data from the model will get the data. To get, we will upload a command. It is . So now all the data is being 게t. Now let us read all data from the table. To get the model name, we will use the model name.objects.all So, from here we have to get all the data. So, model.objects.all Now, the model name is to-do list.objects.all Now, the class to-do list is in the model file. If we use this model in the view, then we have to import it. So, from .models Because our view file and model file are in the same directory and in the same folder. So, we have to get the details by the folder. And then import. Who to import? We will import our to-do list. Now, by doing this, we have to get the data hidden in our to-do list table. Now, I will add this to-do list to the data. So, add to-do list or tags. Now, let's find it. Let's find tags. Now, we will print this. How we will get the data? In our original CL, what this command printed was our query set. I told you to go back a little bit. If we had all get requests, it was our query set."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 23,
+    "start": 2158.6,
+    "end": 2252.6,
+    "text": "Now, let's find it. Let's find tags. Now, we will print this. How we will get the data? In our original CL, what this command printed was our query set. I told you to go back a little bit. If we had all get requests, it was our query set. And in our query set, our list of picks was printed. See? Now, when we do to-do list.objects, the list of picks is printed. This is defined in the way. Here what we have to do is, When we do list of picks, We are sending the list of the series. Here we have static list of the series. Here we have the list of the series from the database, from the to-do list table. But here the data is already defined. To call this function, we have to define the URL. By defining the URL, we can define it by defining the URL in this project. By doing that, I have created multiple views. There are multiple apps. There are multiple views in multiple apps. There are multiple functions. There are multiple classes. It is difficult to find the URL of any app. And there are many lists. So, we have defined the URL app-wise. It is easy to understand. It doesn't matter if it is like this or not. But I prefer this URL file in this app function. Right. Now, let's see what difference it makes if you add it in this."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 24,
+    "start": 2234.6,
+    "end": 2331.6,
+    "text": "So, we have defined the URL app-wise. It is easy to understand. It doesn't matter if it is like this or not. But I prefer this URL file in this app function. Right. Now, let's see what difference it makes if you add it in this. So, here I am adding the URL.URL file. Now, in this, we have to create the path. This project URL is the same. First, we need this path. So, path. And then we use the URL patterns. Right. URL patterns are our restring. Here we are using URL patterns. Now, if we add here, we use path. Now, here we have to add the same way. Now, in this, we create a path for this task. So, task slash. When we call the task function, we call the task function. Where is this function? In our app1 folder, the .use file is our task function. Right. Let's add it. Now, you have to add the same URL in this. You have to add the URL again to make a difference. This is the same thing. You have to do it. So, you have to add the project to your URL. And then, you have to create a file for every app. Now, in this file, we can define the router of app1. And then, we can define the router of the user. We can define the router of the user. But not the app. Right. So, we have to add the same thing."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 25,
+    "start": 2317.6,
+    "end": 2434.92,
+    "text": "Now, in this file, we can define the router of app1. And then, we can define the router of the user. We can define the router of the user. But not the app. Right. So, we have to add the same thing. We have to add the same thing. Now, we are done. We have to add the same thing. We left something else to be added to the world. What results do we get from this? As we say that we are creating, you can add any function. You see the installation app, window, web page. We have Tuxal Be aerações. We haveşa, we have a new option here. Let's name it. Look at our various scripts here. If you have a tab, we can leave Anita. We also have a sub-tab. We can do whatever. See? Now import these functions as well Connect it at the central lock Loading the awaits Keyboard like the status bar Defense, j insp, wono.. Also wait foritel it And I have discussed the card Now we have to restore this URL file in the project folder URL. Because what it does is, What is it recording? Using the URL config defined in project.urls, Django tried these URL patterns. So what it was looking for? It was looking for the URL files in the project folder. So, you have to create all the URL files in the project folder. And define all the URL files in the app."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 26,
+    "start": 2412.92,
+    "end": 2515.92,
+    "text": "Django tried these URL patterns. So what it was looking for? It was looking for the URL files in the project folder. So, you have to create all the URL files in the project folder. And define all the URL files in the app. You have to restore all these files in the project folder. From here, it will probably read the URL files in the project folder. So, what we have to do is, If you are reading the URL files in the app, You have to add them in the project folder. You have to include them. So, we have to include them. And we have defined the path in the project folder. So, we have not created the route for others. And we have to define the path for the app. We have to include the path in the app. And we have to include the URL files in the project folder. This is the whole process of the project folder. Everything goes through the core folder. If you don't find the path in the project folder, Then it cannot be turned on. Obviously, we have not registered the path in the app. If we don't register the path in the app. Then we have to read the models of the path in the app. Likewise, This project.urls is the code configuration for the URL files. We can add all the URL files in every app."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 27,
+    "start": 2497.92,
+    "end": 2662.5,
+    "text": "If we don't register the path in the app. Then we have to read the models of the path in the app. Likewise, This project.urls is the code configuration for the URL files. We can add all the URL files in every app. Now, if I create another app, App2, then I can add the URL files of App2. If I create another app, Notifications, then I can define the URL files of Notifications and improve them. In this, you can include the URL files of each app. Now, if you don't want to do this, you can add the URL files of each app. But this is cleaner. Because, I can't see the URL files of App1 properly. Now, what should I change here? I will add the URL files of App1. Now, I have to interact with this project. Now, I will add the URL files of the project. Now, I will refresh this. Now, I will add the URL files of the project. Now, I am creating a new object. If you see, I have created a new object. If a query set contains that first ,second and newThat will be our firstDict There is a time17. values 불� Goddess This is the query set The list of Dicts thinner is adding So, our processing is the same. The process we have processed above is the same process. This is very interesting. What we have done is that we don't have to start from the view,"
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 28,
+    "start": 2643.7000000000003,
+    "end": 2760.5,
+    "text": "This is the query set The list of Dicts thinner is adding So, our processing is the same. The process we have processed above is the same process. This is very interesting. What we have done is that we don't have to start from the view, we have to start from the database. Right. That's it. Now, let's go to the template and clean this template. Let's clean the template by saying tags. Our tags are already configured in our base HTML. So, let's extend it. Extend to the base. The base is our blog title. Blog title means we want to do this. Right. We have blocked the body. We have blocked the body. We have blocked the body. This is the tag to view list file. After we have done this, we will return to our tags.html. We will return. Before returning. We will return. We have already connected to our page. Now, let's open our page, we will see the update for the new page. We can read the latest page introduction and whatnot. Then, let's cover theварages page. Let's refer to the talk Share andeting sign as well. Let's read out the sheet of the week. For now, before I finish today's video, I want to ask one couple of questions. How many questions did we get and how are people happy this month. That is, why we feel happy and happy? We want to know who ado the benefits of this."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 29,
+    "start": 2747.5,
+    "end": 2882.5,
+    "text": "For now, before I finish today's video, I want to ask one couple of questions. How many questions did we get and how are people happy this month. That is, why we feel happy and happy? We want to know who ado the benefits of this. Very warm hearted people will be happy. We will ask, Now, we will use this data to display the table. Now, we will create the table from the index. Now, we will render the table from this portion. I will get this table. I will get this table and add it to the table. Now, we will do the same process for the other table. We will do this. Now, we will register the fields. Title, description, and status. We will enter the title, description, and status. Now, we will enter the people. Right? We will enter the people as Kwang dictionary. achen After entering the title in the text, we will enter the value of the tabских table. Then, we willallah Now, we carve the new shade of the color. Name the text is The Dubai girl. we will change tax t into tax. Now, what is the iterable? The iterable is tax. We will use s as the bulk. We will use s as the bulk. Now, we will add tax to the iterator. After adding tax, we will start iterating tax. Earlier, we used the iterator person. Now, we will add the person name and the person field."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 30,
+    "start": 2856.5,
+    "end": 3004.0,
+    "text": "We will use s as the bulk. We will use s as the bulk. Now, we will add tax to the iterator. After adding tax, we will start iterating tax. Earlier, we used the iterator person. Now, we will add the person name and the person field. Now, we will add tax to the iterator. We will add tax to the iterator. tax tax tax tax Now, we will add the field title, description, and status. Likewise, we will add tax to title. tax to title And then, we will add the episode title. tax tax We will add the episode title. tax tax tax tax tax tax tax tax tax tax tax Now, we will close the font extension and refresh it. Now, we will see the result. Now, we will see the result. Now, we will see the result. Now, we will see the result. Then, we apply your database Then, we apply your database Then, we apply your database Then, we apply your database That is, our database contains your data too. that is, our database contains your data too. Now, we will check here. Now, we have checked our database. Now, we will search for its number, and modify its status for that. and modify its status for that. Now, what are the conditions in this? If this status is true, then the status we have completed is false. We are doing this pending. So, the status of the tab."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 31,
+    "start": 2976.0,
+    "end": 3127.16,
+    "text": "Now, we will search for its number, and modify its status for that. and modify its status for that. Now, what are the conditions in this? If this status is true, then the status we have completed is false. We are doing this pending. So, the status of the tab. Now, we don't have to write equals to equals to true. Because, the status we have completed is false. So, we will write the status as false. Now, the status of the tab is not true. If this status is true, then we have completed. So, we write the status as false. The status of the tab is not true. So, we write the status as false. Now, we are doing this pending. For now, we will not write the status as false. Because, the new tab has been completed. Now, we write the status as false. Now, the status of the tab is not true. So, we have completed the status as false. We have completed the status as false. Now, we will see how we can use Youngly Ads. we can also have a quick look on the wall of each in D super I will also talk on Y in but this attire never will tight If the text is yellow, we can add it to the class. If the text is pink, we can add it to the class. We can add the text as Tax Success. We can add the text as Pending."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 32,
+    "start": 3089.08,
+    "end": 3237.22,
+    "text": "in but this attire never will tight If the text is yellow, we can add it to the class. If the text is pink, we can add it to the class. We can add the text as Tax Success. We can add the text as Pending. If the text is red, we can add it to the class. We can add the text as Tax Danger. We can add the text as True Status. We can add the text as True Status. We can add the text as True strangers. We can add the text as True Intelligence. We silly sabemos queiadar queados ante mults c оз unится por un instante, el esclavaje del contacto es comoneta que bihinpe baijo mas de huecos comoломos para entender el contenido del tho Raise the 갑azo. The title heading has been changed. Now, we will see what has changed in the get. We have changed the iterator to the loop. And then, we have changed the fields in the iterator to the name. If for loop, we had it before. If for loop, we have changed it before. Now, we will do this. You can see it is different. Attack Vigor data and stem data are gew drivers. And you can see theett kommen. You can see the menu bar next to it by clicking on it. It has been changed from the topic'uelokvuhr' to the The Dadaelnics name. And the newapper Encode andiping languages. And we have opened the selpr ookutטeet."
+  },
+  {
+    "video_id": "cHvgiiQUXFE",
+    "source_file": "cHvgiiQUXFE.json",
+    "chunk_index": 33,
+    "start": 3212.3999999999996,
+    "end": 3313.12,
+    "text": "And you can see theett kommen. You can see the menu bar next to it by clicking on it. It has been changed from the topic'uelokvuhr' to the The Dadaelnics name. And the newapper Encode andiping languages. And we have opened the selpr ookutטeet. Let's search for it. Because we want attain. What all of this is there? Let's try whether it is ready or not. In the index, you can write a single line command. In the index, you can write a database command. The above is different. The above is the same. In the index.html, you can write an iterator. The iterator is different from the iterable. What is the next question? What is the next question? What is the next question? What is the next question? What is the next question?"
   }
 ]
