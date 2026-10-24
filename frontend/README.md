@@ -1,5 +1,16 @@
 # React + TypeScript + Vite
 
+## Learn Vault backend
+
+The frontend sends chat questions to `/api/v1/chat/`. During local development,
+Vite proxies `/api` to `http://127.0.0.1:8000`; start the Django server on that
+address before asking questions. Set `VITE_API_BASE_URL` to a different API
+base URL when deploying the frontend (for example,
+`https://api.example.com/api`).
+
+Install dependencies with `npm install`, then run `npm run dev`. Run
+`npm run build` to type-check and build the frontend.
+
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
