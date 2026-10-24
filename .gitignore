@@ -7,3 +7,15 @@ embeddings/
 qdrant_storage/
 .LearningTranscribe
 transcripts_test/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local Qdrant data
+qdrant_storage/
