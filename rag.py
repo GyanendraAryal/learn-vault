@@ -1,5 +1,5 @@
 import os
-
+from pathlib import Path
 from dotenv import load_dotenv
 from groq import Groq
 from sentence_transformers import SentenceTransformer
@@ -7,6 +7,9 @@ from qdrant_client import QdrantClient
 
 # loading enviornment variables
 load_dotenv()
+
+PROJECT_ROOT = Path(__file__).resolve().parent
+QDRANT_PATH = PROJECT_ROOT / "qdrant_storage"
 
 api_key = os.getenv("GROQ_API_KEY")
 
@@ -18,7 +21,7 @@ model = "openai/gpt-oss-120b"
 embedding_model = SentenceTransformer(
     "sentence-transformers/all-MiniLM-L6-v2",
 )
-qdrant_client = QdrantClient(path="qdrant_storage")
+qdrant_client = QdrantClient(path=str(QDRANT_PATH))
 
 COLLECTION_NAME = "learn_vault"
 
@@ -78,23 +81,27 @@ def has_configuration_evidence(question, chunks):
 def generate_answer(question):
     chunks = retrieve_chunks(question)
 
-    # Experimental threshold; tune it using test questions.
+    # Filter out chunks below the relevance threshold.
     MIN_SCORE = 0.45
-
     chunks = [chunk for chunk in chunks if chunk.score >= MIN_SCORE]
+
     if not chunks:
-        print(
-            "I couldn't find sufficiently relevant course material "
-            "to answer confidently."
-        )
-        return
+        return {
+            "answer": (
+                "I couldn't find sufficiently relevant course material "
+                "to answer confidently."
+            ),
+            "sources": [],
+        }
 
     if not has_configuration_evidence(question, chunks):
-        print(
-            "The retrieved transcripts do not contain clear evidence "
-            "for the requested database configuration."
-        )
-        return
+        return {
+            "answer": (
+                "The retrieved transcripts do not contain clear evidence "
+                "for the requested database configuration."
+            ),
+            "sources": [],
+        }
 
     context_parts = []
 
@@ -109,7 +116,6 @@ def generate_answer(question):
             f"Transcript: {payload.get('text', '')}"
         )
 
-    # Combine all retrieved chunks into one context
     context = "\n\n".join(context_parts)
 
     response = client.chat.completions.create(
@@ -118,34 +124,26 @@ def generate_answer(question):
             {
                 "role": "system",
                 "content": (
-                    "You are Learn Vault, an assistant that helps students learn "
-                    "Django and Django REST Framework from recorded course lectures.\n\n"
+                    "You are Learn Vault, an assistant that helps students "
+                    "learn Django and Django REST Framework from recorded "
+                    "course lectures.\n\n"
                     "RULES:\n"
-                    "1. Answer the user's exact question, not a different question.\n"
-                    "2. Evaluate each source for relevance before using it. "
-                    "Ignore sources that do not help answer the question.\n"
-                    "3. Use retrieved transcripts as the primary source when "
-                    "explaining what the course teaches.\n"
-                    "4. Never claim that the instructor said something unless "
-                    "the provided context supports it.\n"
-                    "5. Transcripts may contain speech-recognition errors. "
-                    "Do not treat garbled or ambiguous text as reliable evidence.\n"
-                    "6. If the relevant evidence is insufficient, explicitly say "
-                    "that the available course material is insufficient to answer "
-                    "confidently. Do not guess what the instructor meant.\n"
-                    "7. You may explain general Django concepts when helpful, "
-                    "but clearly label them as general knowledge rather than "
-                    "claims from the course.\n"
-                    "8. Never invent video IDs, timestamps, quotations, or "
-                    "source details.\n\n"
+                    "1. Answer the user's exact question.\n"
+                    "2. Evaluate sources for relevance and ignore irrelevant ones.\n"
+                    "3. Use retrieved transcripts as the primary source.\n"
+                    "4. Never claim the instructor said something unsupported.\n"
+                    "5. Transcripts may contain speech-recognition errors; "
+                    "do not treat garbled text as reliable evidence.\n"
+                    "6. If evidence is insufficient, say so. Do not guess "
+                    "what the instructor meant.\n"
+                    "7. Clearly label general Django knowledge separately "
+                    "from course-supported information.\n"
+                    "8. Never invent video IDs, timestamps, or quotations.\n\n"
                     "RESPONSE FORMAT:\n"
-                    "- Direct answer to the question.\n"
-                    "- Explanation in simple language.\n"
-                    "- Clearly distinguish lecture-supported information "
-                    "from additional general knowledge.\n"
-                    "- Mention limitations when the transcripts are unclear.\n"
-                    "- Do not invent citations or claim a source supports "
-                    "something it does not.\n"
+                    "- Direct answer.\n"
+                    "- Simple explanation.\n"
+                    "- Distinguish course evidence from general knowledge.\n"
+                    "- Mention limitations when relevant."
                 ),
             },
             {
@@ -159,33 +157,36 @@ def generate_answer(question):
         max_tokens=1200,
     )
 
-    print("\n" + "=" * 60)
-    print("ANSWER")
-    print("=" * 60)
-    print(response.choices[0].message.content)
+    answer = response.choices[0].message.content or ""
 
-    print("\n" + "=" * 60)
-    print("SOURCES")
-    print("=" * 60)
+    sources = []
 
-    for index, chunk in enumerate(chunks, start=1):
+    for chunk in chunks:
         payload = chunk.payload or {}
+        video_id = payload.get("video_id")
 
-        video_id = payload.get("video_id", "Unknown")
         start = int(payload.get("start", 0))
         end = int(payload.get("end", 0))
 
-        if video_id == "Unknown":
-            print(f"{index}. Video ID unavailable")
-            continue
+        source = {
+            "video_id": video_id,
+            "start": start,
+            "end": end,
+            "score": round(float(chunk.score), 4),
+            "text": payload.get("text", ""),
+            "youtube_url": (
+                f"https://www.youtube.com/watch?v={video_id}&t={start}s"
+                if video_id
+                else None
+            ),
+        }
 
-        youtube_url = f"https://www.youtube.com/watch?v={video_id}&t={start}s"
+        sources.append(source)
 
-        print(
-            f"{index}. Source: {youtube_url}\n"
-            f"   Timestamp: {start}s - {end}s\n"
-            f"   Relevance score: {chunk.score:.4f}"
-        )
+    return {
+        "answer": answer,
+        "sources": sources,
+    }
 
 
 if __name__ == "__main__":
@@ -197,7 +198,24 @@ if __name__ == "__main__":
                 break
 
             if question:
-                generate_answer(question)
+                result = generate_answer(question)
 
+                print("\n" + "=" * 60)
+                print("ANSWER")
+                print("=" * 60)
+                print(result["answer"])
+
+                print("\n" + "=" * 60)
+                print("SOURCES")
+                print("=" * 60)
+
+                for index, source in enumerate(result["sources"], start=1):
+                    print(
+                        f"{index}. Source: "
+                        f"{source['youtube_url'] or 'Unavailable'}\n"
+                        f"   Timestamp: {source['start']}s - "
+                        f"{source['end']}s\n"
+                        f"   Relevance score: {source['score']}"
+                    )
     finally:
         qdrant_client.close()
