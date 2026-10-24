@@ -9,7 +9,13 @@ from qdrant_client import QdrantClient
 load_dotenv()
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-QDRANT_PATH = PROJECT_ROOT / "qdrant_storage"
+load_dotenv(PROJECT_ROOT / ".env", override=True)
+
+QDRANT_URL = os.getenv("QDRANT_URL")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+
+if not QDRANT_URL or not QDRANT_API_KEY:
+    raise RuntimeError("Missing Qdrant Cloud credentials in .env")
 
 api_key = os.getenv("GROQ_API_KEY")
 
@@ -21,7 +27,12 @@ model = "openai/gpt-oss-120b"
 embedding_model = SentenceTransformer(
     "sentence-transformers/all-MiniLM-L6-v2",
 )
-qdrant_client = QdrantClient(path=str(QDRANT_PATH))
+qdrant_client = QdrantClient(
+    url=QDRANT_URL,
+    api_key=QDRANT_API_KEY,
+    timeout=30,
+    check_compatibility=False,
+)
 
 COLLECTION_NAME = "learn_vault"
 
