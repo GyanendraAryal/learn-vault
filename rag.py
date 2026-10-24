@@ -41,6 +41,54 @@ def retrieve_chunks(question, limit=5):
     return results
 
 
+def list_library_videos():
+    videos = {}
+    offset = None
+
+    while True:
+        points, next_offset = qdrant_client.scroll(
+            collection_name=COLLECTION_NAME,
+            limit=256,
+            offset=offset,
+            with_payload=["video_id", "start", "end"],
+            with_vectors=False,
+        )
+
+        for point in points:
+            payload = point.payload or {}
+            video_id = payload.get("video_id")
+            if not isinstance(video_id, str) or not video_id:
+                continue
+
+            video = videos.setdefault(
+                video_id,
+                {"video_id": video_id, "chunk_count": 0, "start": None, "end": 0},
+            )
+            video["chunk_count"] += 1
+
+            start = payload.get("start")
+            end = payload.get("end")
+            if isinstance(start, (int, float)):
+                video["start"] = (
+                    start if video["start"] is None else min(video["start"], start)
+                )
+            if isinstance(end, (int, float)):
+                video["end"] = max(video["end"], end)
+
+        if next_offset is None:
+            break
+        offset = next_offset
+
+    return [
+        {
+            **video,
+            "start": video["start"] or 0,
+            "youtube_url": f"https://www.youtube.com/watch?v={video['video_id']}",
+        }
+        for video in sorted(videos.values(), key=lambda item: item["video_id"])
+    ]
+
+
 def has_configuration_evidence(question, chunks):
     """Check for explicit evidence in database-configuration questions."""
 
