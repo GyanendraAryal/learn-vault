@@ -1,15 +1,74 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
 
 
 
 @theme {
+  /* Font */
   --font-sans: "Figtree", sans-serif;
 
-  /* Font Weight Theme */
-  --font-weight-body: 400; /* Chat messages */
-  --font-weight-body-medium: 500; /* Emphasized chat text */
-  --font-weight-button: 600; /* Buttons */
-  --font-weight-heading: 700; /* Section headings */
-   --font-weight-display: 800; /* Main Heading */
+  /* Font Weights */
+  --font-weight-body: 400;
+  --font-weight-body-medium: 500;
+  --font-weight-button: 600;
+  --font-weight-heading: 700;
+  --font-weight-display: 800;
+
+  /* Primary Brand — Emerald Green */
+  --color-primary: #087761;
+  --color-primary-hover: #066652;
+  --color-primary-dark: #075C4A;
+  --color-primary-light: #E5F5F0;
+  --color-primary-foreground: #FFFFFF;
+
+  /* Backgrounds */
+  --color-background: #F4FAFA;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F0F7F8;
+  --color-surface-hover: #EDF7F5;
+
+  /* Sidebar */
+  --color-sidebar: #EFF8F7;
+  --color-sidebar-active: #D9F3EC;
+  --color-sidebar-border: #E1EEEF;
+
+  /* Chat Interface */
+  --color-chat-user: #087761;
+  --color-chat-user-foreground: #FFFFFF;
+  --color-chat-assistant: #FFFFFF;
+  --color-chat-border: #DCEAF2;
+  --color-chat-highlight: #EAF8F5;
+
+  /* Text */
+  --color-text-primary: #102B50;
+  --color-text-secondary: #36577F;
+  --color-text-muted: #6685AD;
+  --color-text-inverse: #FFFFFF;
+
+  /* Borders and Dividers */
+  --color-border: #DCEAF2;
+  --color-border-subtle: #E7EFF4;
+  --color-input-border: #D7E6F0;
+  --color-focus: #36A995;
+
+  /* Video Sources */
+  --color-video-thumbnail: #17375D;
+  --color-video-overlay: #0D2542;
+  --color-video-badge: #0B1728;
+  --color-video-link: #087761;
+
+  /* Semantic States */
+  --color-success: #20C997;
+  --color-success-light: #E5F8F1;
+  --color-info: #5284C4;
+  --color-warning: #E7A849;
+  --color-danger: #DC5B63;
+
+  /* Context Cards */
+  --color-context-background: #D9F3EC;
+  --color-context-border: #C8EEE4;
+  --color-summary-background: #EAF8F5;
+
+  /* Shadows */
+  --color-shadow: #102B50;
 }
