@@ -17,9 +17,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from chatbot.views import LibraryAPIView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     # chat bot api
     path("api/v1/chat/", include("chatbot.urls")),
+    path("api/v1/library/", LibraryAPIView.as_view(), name="library"),
 ]
