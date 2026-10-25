@@ -128,6 +128,6 @@ STATIC_URL = "static/"
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Local React dev server
+    "https://learn-vault-91rv.onrender.com",  # Local React dev server
     "https://example.com",  # Production frontend
 ]
