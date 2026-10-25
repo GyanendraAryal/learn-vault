@@ -27,7 +27,7 @@ export default function Settings() {
   };
 
   return (
-    <section className="min-h-0 flex-1 overflow-y-auto bg-background px-5 py-8 sm:px-8">
+    <section className="min-h-0 flex-1 overflow-y-auto bg-background px-4 py-6 sm:px-8 sm:py-8">
       <div className="mx-auto max-w-3xl">
         <h2 className="text-2xl font-display tracking-tight text-text-primary">Settings</h2>
         <p className="mt-2 text-sm leading-6 text-text-muted">
@@ -35,7 +35,7 @@ export default function Settings() {
         </p>
 
         <div className="mt-8 space-y-5">
-          <section className="rounded-2xl border border-border bg-surface p-6 shadow-sm sm:p-7">
+          <section className="rounded-2xl border border-border bg-surface p-4 shadow-sm sm:p-6 md:p-7">
             <div className="mb-5 flex size-10 items-center justify-center rounded-xl bg-primary-light text-primary">
               <span className="text-sm font-heading">01</span>
             </div>
@@ -57,7 +57,7 @@ export default function Settings() {
             </p>
           </section>
 
-          <section className="rounded-2xl border border-border bg-surface p-6 shadow-sm sm:p-7">
+          <section className="rounded-2xl border border-border bg-surface p-4 shadow-sm sm:p-6 md:p-7">
             <div className="mb-5 flex size-10 items-center justify-center rounded-xl bg-primary-light text-primary">
               <span className="text-sm font-heading">02</span>
             </div>
@@ -83,7 +83,7 @@ export default function Settings() {
             </label>
           </section>
 
-          <section className="rounded-2xl border border-danger/30 bg-surface p-6 shadow-sm sm:p-7">
+          <section className="rounded-2xl border border-danger/30 bg-surface p-4 shadow-sm sm:p-6 md:p-7">
             <div className="mb-5 flex size-10 items-center justify-center rounded-xl bg-danger/10 text-danger">
               <span className="text-sm font-heading">03</span>
             </div>
@@ -97,7 +97,7 @@ export default function Settings() {
               type="button"
               onClick={handleClearHistory}
               disabled={conversationCount === 0}
-              className="mt-4 inline-flex items-center gap-2 rounded-xl border border-danger/40 px-4 py-2.5 text-sm font-button text-danger transition-colors hover:bg-danger/5 disabled:cursor-not-allowed disabled:opacity-50"
+              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-danger/40 px-4 py-2.5 text-sm font-button text-danger transition-colors hover:bg-danger/5 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
             >
               <Trash2 size={16} />
               Clear chat history

@@ -16,7 +16,11 @@ const navigation = [
   { label: "Settings", to: "/settings", icon: Settings },
 ];
 
-export default function Sidebar() {
+interface SidebarProps {
+  onNavigate?: () => void;
+}
+
+export default function Sidebar({ onNavigate }: SidebarProps) {
   const navigate = useNavigate();
   const recentChats = useSelector(
     (state: RootState) => state.chats.conversations,
@@ -27,14 +31,15 @@ export default function Sidebar() {
 
   const handleNewConversation = () => {
     navigate("/chat/new");
+    onNavigate?.();
   };
 
   return (
     <>
-      <aside className="flex h-dvh w-72 shrink-0 flex-col border-r border-sidebar-border bg-sidebar px-4 py-5 text-text-primary">
+      <aside className="fixed inset-y-0 left-0 z-30 flex h-dvh w-[min(18rem,calc(100vw-1rem))] shrink-0 flex-col border-r border-sidebar-border bg-sidebar px-4 py-5 text-text-primary md:relative md:z-auto md:w-72">
         {/* Brand */}
         <div className="mb-8 flex items-center gap-3 px-1">
-          <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-white shadow-md shadow-primary/15">
+          <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-md shadow-primary/15">
             <BookOpen size={27} strokeWidth={2} />
           </div>
 
@@ -47,7 +52,7 @@ export default function Sidebar() {
         {/* New Conversation */}
         <button
           onClick={handleNewConversation}
-          className="mb-6 flex h-12 w-full items-center gap-3 rounded-xl bg-primary px-4 text-sm font-button text-white shadow-md shadow-primary/15 transition-all hover:-translate-y-0.5 hover:bg-primary-hover hover:shadow-lg"
+          className="mb-6 flex h-12 w-full items-center gap-3 rounded-xl bg-primary px-4 text-sm font-button text-primary-foreground shadow-md shadow-primary/15 transition-all hover:-translate-y-0.5 hover:bg-primary-hover hover:shadow-lg"
         >
           <Plus size={23} />
           <span>New Conversation</span>
@@ -60,6 +65,7 @@ export default function Sidebar() {
               key={to}
               to={to}
               end={to === "/"}
+              onClick={onNavigate}
               className={({ isActive }) =>
                 `flex h-11 w-full items-center gap-3 rounded-xl px-3 text-sm transition-colors ${
                   isActive
@@ -85,6 +91,7 @@ export default function Sidebar() {
               <NavLink
                 key={id}
                 to={`/chat/${id}`}
+                onClick={onNavigate}
                 className={({ isActive }) =>
                   `flex min-h-[58px] w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-colors ${
                     isActive ? "bg-sidebar-active shadow-sm" : "hover:bg-surface-hover"

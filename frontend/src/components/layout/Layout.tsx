@@ -1,11 +1,13 @@
 import { Outlet, useLocation } from "react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Sidebar from "./Sidebar";
 import ChatHeader from "./ChatHeader";
 
 export default function Layout() {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(() =>
+    window.matchMedia("(min-width: 768px)").matches,
+  );
   const location = useLocation();
   const pageTitle = location.pathname.startsWith("/library")
     ? "Lecture library"
@@ -13,9 +15,33 @@ export default function Layout() {
       ? "Settings"
       : "Course assistant";
 
+  useEffect(() => {
+    const desktopLayout = window.matchMedia("(min-width: 768px)");
+    const syncSidebar = () => setSidebarOpen(desktopLayout.matches);
+
+    desktopLayout.addEventListener("change", syncSidebar);
+    return () => desktopLayout.removeEventListener("change", syncSidebar);
+  }, []);
+
+  const closeSidebarOnMobile = () => {
+    if (!window.matchMedia("(min-width: 768px)").matches) {
+      setSidebarOpen(false);
+    }
+  };
+
   return (
     <div className="flex h-dvh overflow-hidden bg-background font-sans text-text-primary antialiased">
-      {sidebarOpen && <Sidebar />}
+      {sidebarOpen && (
+        <>
+          <button
+            type="button"
+            aria-label="Close sidebar"
+            onClick={() => setSidebarOpen(false)}
+            className="fixed inset-0 z-20 bg-shadow/30 md:hidden"
+          />
+          <Sidebar onNavigate={closeSidebarOnMobile} />
+        </>
+      )}
 
       <main className="flex min-w-0 flex-1 flex-col overflow-hidden">
         <ChatHeader

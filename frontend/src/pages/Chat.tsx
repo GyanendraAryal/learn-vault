@@ -140,11 +140,11 @@ export default function Chat() {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col bg-background">
-      <div className="min-h-0 flex-1 overflow-y-auto px-5 py-6 sm:px-8">
+      <div className="min-h-0 flex-1 overflow-y-auto px-3 py-4 sm:px-8 sm:py-6">
         {!conversation || messages.length === 0 ? (
           <div className="flex h-full items-center justify-center">
-            <div className="max-w-lg text-center">
-              <h2 className="text-2xl font-display text-text-primary">
+            <div className="max-w-lg px-2 text-center">
+              <h2 className="text-xl font-display text-text-primary sm:text-2xl">
                 Let's learn something.
               </h2>
               <p className="mt-3 text-sm leading-6 text-text-muted">

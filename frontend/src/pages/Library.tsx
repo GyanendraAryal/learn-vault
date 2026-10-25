@@ -47,7 +47,7 @@ export default function Library() {
   }, [search, videos]);
 
   return (
-    <section className="min-h-0 flex-1 overflow-y-auto bg-background px-5 py-8 sm:px-8">
+    <section className="min-h-0 flex-1 overflow-y-auto bg-background px-4 py-6 sm:px-8 sm:py-8">
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
@@ -96,9 +96,9 @@ export default function Library() {
                 key={video.video_id}
                 className="group overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition-all hover:-translate-y-1 hover:border-context-border hover:shadow-lg"
               >
-                <div className="relative flex h-40 items-center justify-center overflow-hidden bg-video-thumbnail text-white">
+                <div className="relative flex h-40 items-center justify-center overflow-hidden bg-video-thumbnail text-primary-foreground">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-video-overlay/70" />
-                  <div className="relative flex size-16 items-center justify-center rounded-2xl border border-white/20 bg-white/10 shadow-lg backdrop-blur-sm transition-transform group-hover:scale-105">
+                  <div className="relative flex size-16 items-center justify-center rounded-2xl border border-primary-foreground/20 bg-primary-foreground/10 shadow-lg backdrop-blur-sm transition-transform group-hover:scale-105">
                     <Video size={32} strokeWidth={1.5} />
                   </div>
                 </div>

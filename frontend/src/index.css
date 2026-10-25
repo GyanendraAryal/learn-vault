@@ -2,7 +2,6 @@
 @import "tailwindcss";
 
 
-
 @theme {
   /* Font */
   --font-sans: "Figtree", sans-serif;
@@ -14,61 +13,70 @@
   --font-weight-heading: 700;
   --font-weight-display: 800;
 
-  /* Primary Brand — Emerald Green */
-  --color-primary: #087761;
-  --color-primary-hover: #066652;
-  --color-primary-dark: #075C4A;
-  --color-primary-light: #E5F5F0;
+  /* Primary Brand — Learn Vault Navy */
+  --color-primary: #091567;
+  --color-primary-hover: #070F52;
+  --color-primary-dark: #060D45;
+  --color-primary-light: #E8EBFF;
   --color-primary-foreground: #FFFFFF;
 
+  /* Secondary Brand — Royal Blue */
+  --color-secondary: #1A56EF;
+  --color-secondary-hover: #1648CC;
+  --color-secondary-light: #EAF0FF;
+
+  /* Accent — Sky Blue */
+  --color-accent: #4AA2F9;
+  --color-accent-light: #EAF5FF;
+
   /* Backgrounds */
-  --color-background: #F4FAFA;
+  --color-background: #F7F9FF;
   --color-surface: #FFFFFF;
-  --color-surface-muted: #F0F7F8;
-  --color-surface-hover: #EDF7F5;
+  --color-surface-muted: #F1F4FC;
+  --color-surface-hover: #EAF0FF;
 
   /* Sidebar */
-  --color-sidebar: #EFF8F7;
-  --color-sidebar-active: #D9F3EC;
-  --color-sidebar-border: #E1EEEF;
+  --color-sidebar: #F1F4FC;
+  --color-sidebar-active: #E0E8FF;
+  --color-sidebar-border: #DCE3F3;
 
   /* Chat Interface */
-  --color-chat-user: #087761;
+  --color-chat-user: #091567;
   --color-chat-user-foreground: #FFFFFF;
   --color-chat-assistant: #FFFFFF;
-  --color-chat-border: #DCEAF2;
-  --color-chat-highlight: #EAF8F5;
+  --color-chat-border: #DCE3F3;
+  --color-chat-highlight: #EAF0FF;
 
   /* Text */
-  --color-text-primary: #102B50;
-  --color-text-secondary: #36577F;
-  --color-text-muted: #6685AD;
+  --color-text-primary: #091567;
+  --color-text-secondary: #40517D;
+  --color-text-muted: #7886A8;
   --color-text-inverse: #FFFFFF;
 
   /* Borders and Dividers */
-  --color-border: #DCEAF2;
-  --color-border-subtle: #E7EFF4;
-  --color-input-border: #D7E6F0;
-  --color-focus: #36A995;
+  --color-border: #DCE3F3;
+  --color-border-subtle: #E9EDF6;
+  --color-input-border: #CFD8EC;
+  --color-focus: #1A56EF;
 
   /* Video Sources */
-  --color-video-thumbnail: #17375D;
-  --color-video-overlay: #0D2542;
-  --color-video-badge: #0B1728;
-  --color-video-link: #087761;
+  --color-video-thumbnail: #091567;
+  --color-video-overlay: #060D45;
+  --color-video-badge: #101A48;
+  --color-video-link: #1A56EF;
 
   /* Semantic States */
-  --color-success: #20C997;
-  --color-success-light: #E5F8F1;
-  --color-info: #5284C4;
+  --color-success: #20A779;
+  --color-success-light: #E5F8F0;
+  --color-info: #1A56EF;
   --color-warning: #E7A849;
   --color-danger: #DC5B63;
 
   /* Context Cards */
-  --color-context-background: #D9F3EC;
-  --color-context-border: #C8EEE4;
-  --color-summary-background: #EAF8F5;
+  --color-context-background: #EAF0FF;
+  --color-context-border: #D4DFFF;
+  --color-summary-background: #EAF5FF;
 
   /* Shadows */
-  --color-shadow: #102B50;
+  --color-shadow: #091567;
 }

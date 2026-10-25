@@ -31,9 +31,9 @@ export default function MessageInput({
   };
 
   return (
-    <div className="shrink-0 border-t border-border-subtle bg-surface/95 px-4 py-4 backdrop-blur sm:px-8 sm:py-5">
+    <div className="shrink-0 border-t border-border-subtle bg-surface/95 px-3 py-3 backdrop-blur sm:px-8 sm:py-5">
       <form onSubmit={handleSend} className="mx-auto max-w-4xl">
-        <div className="flex items-end gap-2 rounded-2xl border border-input-border bg-surface p-2.5 shadow-lg shadow-shadow/5 transition-all focus-within:border-focus focus-within:ring-4 focus-within:ring-primary-light sm:gap-3 sm:p-3">
+        <div className="flex items-end gap-1.5 rounded-2xl border border-input-border bg-surface p-2 shadow-lg shadow-shadow/5 transition-all focus-within:border-focus focus-within:ring-4 focus-within:ring-primary-light sm:gap-3 sm:p-3">
           <button
             type="button"
             aria-label="Attach a file"
@@ -51,20 +51,20 @@ export default function MessageInput({
             aria-label="Message"
             rows={1}
             disabled={isLoading}
-            className="max-h-36 min-h-10 flex-1 resize-y bg-transparent px-1 py-2 text-sm leading-6 text-text-primary outline-none placeholder:text-text-muted disabled:opacity-50"
+            className="max-h-[30vh] min-h-10 min-w-0 flex-1 resize-y bg-transparent px-1 py-2 text-sm leading-6 text-text-primary outline-none placeholder:text-text-muted disabled:opacity-50 sm:max-h-36"
           />
 
           <button
             type="submit"
             aria-label="Send message"
             disabled={!message.trim() || isLoading}
-            className="mb-0.5 flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary text-white shadow-sm transition-all hover:bg-primary-hover hover:shadow-md disabled:cursor-not-allowed disabled:opacity-40"
+            className="mb-0.5 flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm transition-all hover:bg-primary-hover hover:shadow-md disabled:cursor-not-allowed disabled:opacity-40"
           >
             <ArrowUp size={22} strokeWidth={2.2} />
           </button>
         </div>
 
-        <p className="mt-3 text-center text-[11px] text-text-muted">
+        <p className="mt-2 px-1 text-center text-[11px] leading-4 text-text-muted sm:mt-3">
           Learn Vault can make mistakes. Verify important information with your
           lecture sources.
         </p>

@@ -33,17 +33,17 @@ export default function NewChat() {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col bg-background">
-      <section className="relative flex flex-1 items-center justify-center overflow-hidden px-6 py-10">
+      <section className="relative flex flex-1 items-center justify-center overflow-hidden px-4 py-8 sm:px-6 sm:py-10">
         <div className="pointer-events-none absolute left-1/2 top-1/2 size-[34rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-light/60 blur-3xl" />
         <div className="relative max-w-xl text-center">
-          <div className="mx-auto mb-7 flex size-20 items-center justify-center rounded-3xl border border-context-border bg-surface text-primary shadow-lg shadow-primary/10">
+          <div className="mx-auto mb-6 flex size-16 items-center justify-center rounded-3xl border border-context-border bg-surface text-primary shadow-lg shadow-primary/10 sm:mb-7 sm:size-20">
             <BookOpen size={38} strokeWidth={1.6} />
           </div>
           <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-context-border bg-context-background px-3 py-1 text-xs font-button text-primary">
             <Sparkles size={14} />
             Your lecture companion
           </div>
-          <h2 className="text-3xl font-display tracking-tight text-text-primary sm:text-4xl">
+          <h2 className="text-2xl font-display tracking-tight text-text-primary sm:text-4xl">
             What do you want to learn today?
           </h2>
 
