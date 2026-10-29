@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
-
 
 @theme {
   /* Font */
-  --font-sans: "Figtree", sans-serif;
+  --font-sans: "Inter", sans-serif;
 
   /* Font Weights */
   --font-weight-body: 400;
@@ -13,70 +12,70 @@
   --font-weight-heading: 700;
   --font-weight-display: 800;
 
-  /* Primary Brand — Learn Vault Navy */
-  --color-primary: #091567;
-  --color-primary-hover: #070F52;
-  --color-primary-dark: #060D45;
-  --color-primary-light: #E8EBFF;
-  --color-primary-foreground: #FFFFFF;
+  /* Primary Brand — Clean Purple */
+  --color-primary: #4600ea;
+  --color-primary-hover: #3900c7;
+  --color-primary-dark: #2d009e;
+  --color-primary-light: #f0eaff;
+  --color-primary-foreground: #ffffff;
 
-  /* Secondary Brand — Royal Blue */
-  --color-secondary: #1A56EF;
-  --color-secondary-hover: #1648CC;
-  --color-secondary-light: #EAF0FF;
+  /* Secondary Brand — Bright Blue */
+  --color-secondary: #0b99ff;
+  --color-secondary-hover: #0785e0;
+  --color-secondary-light: #eaf5ff;
 
-  /* Accent — Sky Blue */
-  --color-accent: #4AA2F9;
-  --color-accent-light: #EAF5FF;
+  /* Accent — Hot Pink */
+  --color-accent: #ff006e;
+  --color-accent-light: #fff0f6;
 
   /* Backgrounds */
-  --color-background: #F7F9FF;
-  --color-surface: #FFFFFF;
-  --color-surface-muted: #F1F4FC;
-  --color-surface-hover: #EAF0FF;
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f6f6;
+  --color-surface-hover: #f0eaff;
 
   /* Sidebar */
-  --color-sidebar: #F1F4FC;
-  --color-sidebar-active: #E0E8FF;
-  --color-sidebar-border: #DCE3F3;
+  --color-sidebar: #f6f6f6;
+  --color-sidebar-active: #f0eaff;
+  --color-sidebar-border: #e6e6e6;
 
   /* Chat Interface */
-  --color-chat-user: #091567;
-  --color-chat-user-foreground: #FFFFFF;
-  --color-chat-assistant: #FFFFFF;
-  --color-chat-border: #DCE3F3;
-  --color-chat-highlight: #EAF0FF;
+  --color-chat-user: #4600ea;
+  --color-chat-user-foreground: #ffffff;
+  --color-chat-assistant: #f6f6f6;
+  --color-chat-border: #e6e6e6;
+  --color-chat-highlight: #f0eaff;
 
   /* Text */
-  --color-text-primary: #091567;
-  --color-text-secondary: #40517D;
-  --color-text-muted: #7886A8;
-  --color-text-inverse: #FFFFFF;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-text-muted: #888888;
+  --color-text-inverse: #ffffff;
 
   /* Borders and Dividers */
-  --color-border: #DCE3F3;
-  --color-border-subtle: #E9EDF6;
-  --color-input-border: #CFD8EC;
-  --color-focus: #1A56EF;
+  --color-border: #e6e6e6;
+  --color-border-subtle: #f0f0f0;
+  --color-input-border: #d9d9d9;
+  --color-focus: #4600ea;
 
   /* Video Sources */
-  --color-video-thumbnail: #091567;
-  --color-video-overlay: #060D45;
-  --color-video-badge: #101A48;
-  --color-video-link: #1A56EF;
+  --color-video-thumbnail: #2d009e;
+  --color-video-overlay: #1a1a1a;
+  --color-video-badge: #4600ea;
+  --color-video-link: #0b99ff;
 
   /* Semantic States */
-  --color-success: #20A779;
-  --color-success-light: #E5F8F0;
-  --color-info: #1A56EF;
-  --color-warning: #E7A849;
-  --color-danger: #DC5B63;
+  --color-success: #20a779;
+  --color-success-light: #e5f8f0;
+  --color-info: #0b99ff;
+  --color-warning: #e7a849;
+  --color-danger: #dc5b63;
 
   /* Context Cards */
-  --color-context-background: #EAF0FF;
-  --color-context-border: #D4DFFF;
-  --color-summary-background: #EAF5FF;
+  --color-context-background: #f0eaff;
+  --color-context-border: #dcceff;
+  --color-summary-background: #eaf5ff;
 
   /* Shadows */
-  --color-shadow: #091567;
+  --color-shadow: #1a1a1a;
 }

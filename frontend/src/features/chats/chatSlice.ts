@@ -6,6 +6,8 @@ export interface ChatMessage {
     role: "user" | "assistant";
     content: string;
     createdAt: string;
+    isError?: boolean;
+    retryQuestion?: string;
 }
 
 export interface ChatConversation {
@@ -75,6 +77,27 @@ const chatSlice = createSlice({
             }
         },
 
+        updateMessage: (
+            state,
+            action: PayloadAction<{
+                chatId: string;
+                message: ChatMessage;
+            }>,
+        ) => {
+            const conversation = state.conversations.find(
+                (chat) => chat.id === action.payload.chatId,
+            );
+
+            const messageIndex = conversation?.messages.findIndex(
+                (message) => message.id === action.payload.message.id,
+            );
+
+            if (conversation && messageIndex !== undefined && messageIndex >= 0) {
+                conversation.messages[messageIndex] = action.payload.message;
+                conversation.updatedAt = action.payload.message.createdAt;
+            }
+        },
+
         clearActiveChat: (state) => {
             state.activeChatId = null;
         },
@@ -100,6 +123,7 @@ export const {
     createConversation,
     setActiveChat,
     addMessage,
+    updateMessage,
     clearActiveChat,
     clearAllConversations,
     deleteConversation,

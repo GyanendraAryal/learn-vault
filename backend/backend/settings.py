@@ -126,8 +126,8 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-
 CORS_ALLOWED_ORIGINS = [
-    "https://learn-vault-91rv.onrender.com",  # Local React dev server
-    "https://example.com",  # Production frontend
+    origin.strip()
+    for origin in os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
+    if origin.strip()
 ]

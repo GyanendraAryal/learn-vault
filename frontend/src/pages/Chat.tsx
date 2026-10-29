@@ -3,8 +3,16 @@ import { useLocation, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 
 import type { AppDispatch, RootState } from "../app/store";
-import { addMessage, setActiveChat } from "../features/chats/chatSlice";
-import { askQuestion } from "../features/chats/chatApi";
+import {
+  addMessage,
+  setActiveChat,
+  updateMessage,
+} from "../features/chats/chatSlice";
+import {
+  askQuestion,
+  ChatApiError,
+  chatApiUrl,
+} from "../features/chats/chatApi";
 
 import ChatMessages from "../components/chat/ChatMessages";
 import MessageInput from "../components/chat/MessageInput";
@@ -32,6 +40,7 @@ export default function Chat() {
 
   const [isLoading, setIsLoading] = useState(false);
   const initialMessageHandled = useRef(false);
+  const requestInFlight = useRef(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -48,24 +57,26 @@ export default function Chat() {
   }, [messages.length, isLoading]);
 
   const handleSend = useCallback(
-    async (message: string) => {
+    async (message: string, retryMessageId?: string) => {
       const question = message.trim();
 
-      if (!chatId || !question || isLoading) return;
+      if (!chatId || !question || requestInFlight.current) return;
 
-      dispatch(
-        addMessage({
-          chatId,
-          message: {
-            id: crypto.randomUUID(),
-            role: "user",
-            content: question,
-            createdAt: new Date().toISOString(),
-          },
-        }),
-      );
-
+      requestInFlight.current = true;
       setIsLoading(true);
+      if (!retryMessageId) {
+        dispatch(
+          addMessage({
+            chatId,
+            message: {
+              id: crypto.randomUUID(),
+              role: "user",
+              content: question,
+              createdAt: new Date().toISOString(),
+            },
+          }),
+        );
+      }
 
       try {
         const data = await askQuestion(question);
@@ -87,41 +98,47 @@ export default function Chat() {
               .join("\n")}`
           : data.answer;
 
+        const reply = {
+          id: retryMessageId ?? crypto.randomUUID(),
+          role: "assistant" as const,
+          content: answer,
+          createdAt: new Date().toISOString(),
+        };
         dispatch(
-          addMessage({
-            chatId,
-            message: {
-              id: crypto.randomUUID(),
-              role: "assistant",
-              content: answer,
-              createdAt: new Date().toISOString(),
-            },
-          }),
+          retryMessageId
+            ? updateMessage({ chatId, message: reply })
+            : addMessage({ chatId, message: reply }),
         );
       } catch (error) {
         console.error("RAG API request failed:", error);
 
+        const content =
+          error instanceof ChatApiError
+            ? error.message
+            : error instanceof TypeError
+              ? `Couldn't reach the chat API at ${chatApiUrl}. Check that the backend is online and the Vercel API rewrite is configured.`
+              : error instanceof Error
+                ? error.message
+                : "Something went wrong while generating the answer.";
+        const failedReply = {
+          id: retryMessageId ?? crypto.randomUUID(),
+          role: "assistant" as const,
+          content,
+          createdAt: new Date().toISOString(),
+          isError: true,
+          retryQuestion: question,
+        };
         dispatch(
-          addMessage({
-            chatId,
-            message: {
-              id: crypto.randomUUID(),
-              role: "assistant",
-              content:
-                error instanceof TypeError
-                  ? "I couldn't connect to the Django server. Check that the backend is running and that VITE_API_BASE_URL is configured correctly."
-                  : error instanceof Error
-                    ? `Sorry, I couldn't generate an answer: ${error.message}`
-                    : "Sorry, something went wrong while generating the answer.",
-              createdAt: new Date().toISOString(),
-            },
-          }),
+          retryMessageId
+            ? updateMessage({ chatId, message: failedReply })
+            : addMessage({ chatId, message: failedReply }),
         );
       } finally {
+        requestInFlight.current = false;
         setIsLoading(false);
       }
     },
-    [chatId, dispatch, includeSources, isLoading],
+    [chatId, dispatch, includeSources],
   );
 
   useEffect(() => {
@@ -153,14 +170,21 @@ export default function Chat() {
             </div>
           </div>
         ) : (
-          <ChatMessages messages={messages} />
+          <ChatMessages
+            messages={messages}
+            isLoading={isLoading}
+            onRetry={(question, messageId) =>
+              void handleSend(question, messageId)
+            }
+          />
         )}
 
         {isLoading && (
           <p
             role="status"
-            className="mx-auto mt-4 max-w-4xl text-sm text-text-muted"
+            className="mx-auto mt-4 flex max-w-4xl items-center gap-2 text-sm text-text-muted"
           >
+            <span className="size-2 animate-pulse rounded-full bg-primary" />
             Searching your lectures and preparing an answer...
           </p>
         )}

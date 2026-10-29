@@ -16,6 +16,14 @@ export const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "/api").replace(
   /\/+$/,
   "",
 );
+export const chatApiUrl = `${apiBaseUrl}/v1/chat/`;
+
+export class ChatApiError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "ChatApiError";
+  }
+}
 
 function isRagSource(source: unknown): source is RagSource {
   if (typeof source !== "object" || source === null) return false;
@@ -45,7 +53,7 @@ function isRagResponse(response: unknown): response is RagResponse {
 }
 
 export async function askQuestion(question: string): Promise<RagResponse> {
-  const response = await fetch(`${apiBaseUrl}/v1/chat/`, {
+  const response = await fetch(chatApiUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -53,12 +61,32 @@ export async function askQuestion(question: string): Promise<RagResponse> {
     body: JSON.stringify({ question }),
   });
 
-  let data: unknown;
+  const responseText = await response.text();
+  let data: unknown = null;
 
-  try {
-    data = await response.json();
-  } catch {
-    throw new Error("The server returned an invalid JSON response.");
+  if (responseText) {
+    try {
+      data = JSON.parse(responseText);
+    } catch {
+      if (!response.ok) {
+        if (
+          response.status === 404 &&
+          /NOT_FOUND|The page could not be found/i.test(responseText)
+        ) {
+          throw new ChatApiError(
+            "The chat API route returned 404 instead of JSON. In Vercel, set the project Root Directory to frontend, make sure frontend/vercel.json is included in the deployment, and redeploy.",
+          );
+        }
+
+        throw new ChatApiError(
+          `The chat service returned HTTP ${response.status} with a non-JSON response. Check the backend deployment and API route.`,
+        );
+      }
+
+      throw new ChatApiError(
+        "The chat service returned an invalid response. Check that the Vercel API rewrite reaches the Django backend.",
+      );
+    }
   }
 
   if (!response.ok) {
@@ -71,7 +99,18 @@ export async function askQuestion(question: string): Promise<RagResponse> {
       throw new Error(data.error);
     }
 
-    throw new Error("The server could not answer your question.");
+    if (
+      typeof data === "object" &&
+      data !== null &&
+      "detail" in data &&
+      typeof data.detail === "string"
+    ) {
+      throw new ChatApiError(data.detail);
+    }
+
+    throw new ChatApiError(
+      `The chat service returned HTTP ${response.status}. Please try again in a moment.`,
+    );
   }
 
   if (!isRagResponse(data)) {

@@ -8,6 +8,11 @@ address before asking questions. Set `VITE_API_BASE_URL` to a different API
 base URL when deploying the frontend (for example,
 `https://api.example.com/api`).
 
+For Vercel, use `VITE_API_BASE_URL=/api` (or leave it unset) and set the Vercel
+project Root Directory to `frontend` so `vercel.json` can proxy API requests to
+the Django service. After changing the root directory or a `VITE_*` setting,
+redeploy the frontend.
+
 Install dependencies with `npm install`, then run `npm run dev`. Run
 `npm run build` to type-check and build the frontend.
 
