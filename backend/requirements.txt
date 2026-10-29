@@ -1,8 +1,9 @@
 Django==6.1.2
 djangorestframework==3.18.3
 django-cors-headers==4.9.0
+gunicorn==26.2.0
 python-dotenv==1.2.4
-groq==1.7.0
-sentence-transformers==6.1.0
 qdrant-client==1.19.1
-gunicorn
+groq==1.7.0
+fastembed==0.9.1
+numpy==2.5.4
