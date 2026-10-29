@@ -1,9 +1,11 @@
 import os
 from pathlib import Path
+
+import numpy as np
 from dotenv import load_dotenv
 from qdrant_client import QdrantClient
 
-# loading enviornment variables
+# loading environment variables
 load_dotenv()
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -11,6 +13,7 @@ load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 COLLECTION_NAME = "learn_vault"
 MODEL_NAME = "openai/gpt-oss-120b"
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 _qdrant_client = None
 _embedding_model = None
@@ -37,14 +40,13 @@ def _get_qdrant_client():
 
 
 def _get_embedding_model():
+    """Lightweight ONNX embedding model (no torch), same model as before."""
     global _embedding_model
 
     if _embedding_model is None:
-        from sentence_transformers import SentenceTransformer
+        from fastembed import TextEmbedding
 
-        _embedding_model = SentenceTransformer(
-            "sentence-transformers/all-MiniLM-L6-v2",
-        )
+        _embedding_model = TextEmbedding(model_name=EMBEDDING_MODEL_NAME)
 
     return _embedding_model
 
@@ -59,23 +61,41 @@ def _get_groq_client():
         if not api_key:
             raise RuntimeError("Missing GROQ_API_KEY.")
 
-        _groq_client = Groq(api_key=api_key)
+        _groq_client = Groq(api_key=api_key, timeout=30.0)
 
     return _groq_client
 
 
+def warm_up():
+    """Load the embedding model ahead of the first request.
+    Call once at app startup (e.g. in AppConfig.ready() or a startup hook)."""
+    _get_embedding_model()
+
+
+def _embed_query(question):
+    """Return a normalized query vector, matching normalize_embeddings=True."""
+    vector = np.asarray(
+        next(iter(_get_embedding_model().embed([question]))), dtype=np.float32
+    )
+    norm = np.linalg.norm(vector)
+    if norm > 0:
+        vector = vector / norm
+    return vector.tolist()
+
+
 def retrieve_chunks(question, limit=5):
+    question_vector = _embed_query(question)
 
-    question_vector = _get_embedding_model().encode(
-        question, normalize_embeddings=True
-    ).tolist()
-
-    results = _get_qdrant_client().query_points(
-        collection_name=COLLECTION_NAME,
-        query=question_vector,
-        limit=limit,
-        with_payload=True,
-    ).points
+    results = (
+        _get_qdrant_client()
+        .query_points(
+            collection_name=COLLECTION_NAME,
+            query=question_vector,
+            limit=limit,
+            with_payload=True,
+        )
+        .points
+    )
     return results
 
 
